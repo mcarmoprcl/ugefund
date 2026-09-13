@@ -11,12 +11,6 @@ change, a store renamed), this script leaves the existing deals.json
 untouched rather than overwriting it with something broken, and appends
 a line to scrape-log.txt explaining what happened — check that file first
 if a weekly update doesn't show up.
-
-This was written and reasoned through against a known-current, no-auth
-reference implementation of this API, but has not been run against the
-live API from within Claude (that domain isn't reachable from Claude's
-sandbox). The first real run will be the GitHub Action itself — if it
-errors, paste the log back to Claude and it can fix the script.
 """
 
 import json
@@ -32,8 +26,6 @@ HERE = Path(__file__).parent
 DEALS_FILE = HERE / "deals.json"
 LOG_FILE = HERE / "scrape-log.txt"
 
-# Our internal store ids -> substrings to match against the dealer's name
-# from the API (matched lowercase). First match wins.
 STORE_MATCHERS = {
     "lidl": ["lidl"],
     "foetex": ["føtex", "foetex", "fotex"],
@@ -54,9 +46,6 @@ CATEGORY_KEYWORDS = {
     ],
 }
 
-# Small best-effort Danish -> English dictionary for common grocery words.
-# Not a real translator — just enough to make scraped names readable in
-# English until you ask Claude to tidy up specific ones.
 WORD_TRANSLATIONS = {
     "hakket": "ground", "oksekød": "beef", "svinekød": "pork",
     "kyllingefileter": "chicken fillets", "kylling": "chicken",
@@ -141,6 +130,8 @@ def unit_label(raw: dict) -> str:
 
 def build_deals() -> tuple[list[dict], dict]:
     dealers = fetch_dealers()
+    log(f"Dealers returned by API ({len(dealers)}): " + ", ".join(sorted(d.get("name", "?") for d in dealers)))
+
     dealer_ids, store_logos = match_dealer_ids(dealers)
 
     missing = [s for s in STORE_MATCHERS if s not in dealer_ids]
@@ -156,13 +147,13 @@ def build_deals() -> tuple[list[dict], dict]:
             log(f"Warning: failed to fetch offers for {our_store_id}: {e}")
             continue
 
+        kept = 0
         for raw in offers:
             pricing = raw.get("pricing") or {}
             price = pricing.get("price")
             was = pricing.get("pre_price")
             heading = raw.get("heading")
 
-            # Only keep genuine discounts with a usable name and price.
             if not heading or price is None or was is None or was <= price:
                 continue
 
@@ -180,6 +171,9 @@ def build_deals() -> tuple[list[dict], dict]:
                 }
             )
             next_id += 1
+            kept += 1
+
+        log(f"{our_store_id}: fetched {len(offers)} raw offers, kept {kept} with a valid discount.")
 
     return deals, store_logos
 
@@ -189,7 +183,7 @@ def main() -> int:
         deals, store_logos = build_deals()
     except requests.RequestException as e:
         log(f"Scrape failed (network/API error), keeping existing deals.json: {e}")
-        return 0  # don't fail the whole workflow — just skip this week's update
+        return 0
     except Exception as e:
         log(f"Scrape failed (unexpected error), keeping existing deals.json: {e}")
         return 0
