@@ -1,0 +1,36 @@
+name: Update weekly deals
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC (most Danish pamphlets turn over Sun/Mon night)
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}   # lets you click "Run workflow" manually to test
+
+permissions:
+  contents: write
+
+jobs:
+  update-deals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the scraper
+        run: python scraper.py
+
+      - name: Commit updated deals (if anything changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add deals.json scrape-log.txt
+          git diff --staged --quiet || git commit -m "Weekly deals update"
+          git push
