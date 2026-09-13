@@ -1,0 +1,23 @@
+{
+  "lastUpdated": "sample data — not yet scraped",
+  "storeLogos": {},
+  "deals": [
+    { "id": 1, "store": "lidl", "category": "Kød & fisk", "name": "Hakket oksekød 8-12%", "nameEn": "Ground beef 8-12%", "unit": "400 g", "price": 29.95, "was": 39.95 },
+    { "id": 2, "store": "lidl", "category": "Frugt & grønt", "name": "Bananer", "nameEn": "Bananas", "unit": "1 kg", "price": 6.95, "was": 12.95 },
+    { "id": 3, "store": "lidl", "category": "Kolonial", "name": "Toastbrød", "nameEn": "Sandwich bread", "unit": "500 g", "price": 12.0, "was": 16.0 },
+    { "id": 4, "store": "foetex", "category": "Kød & fisk", "name": "Kyllingefileter", "nameEn": "Chicken fillets", "unit": "1 kg", "price": 39.95, "was": 69.95 },
+    { "id": 5, "store": "foetex", "category": "Frugt & grønt", "name": "Løg, net", "nameEn": "Onions, net bag", "unit": "1 kg", "price": 8.0, "was": 12.0 },
+    { "id": 6, "store": "foetex", "category": "Kolonial", "name": "Rugbrød", "nameEn": "Rye bread", "unit": "800 g", "price": 15.0, "was": 19.95 },
+    { "id": 7, "store": "netto", "category": "Kød & fisk", "name": "Laksefileter", "nameEn": "Salmon fillets", "unit": "300 g", "price": 39.95, "was": 59.95 },
+    { "id": 8, "store": "netto", "category": "Frugt & grønt", "name": "Agurk", "nameEn": "Cucumber", "unit": "pcs", "price": 5.0, "was": 8.0 },
+    { "id": 9, "store": "netto", "category": "Mejeri", "name": "Æg", "nameEn": "Eggs", "unit": "15 pcs", "price": 24.95, "was": 32.0 },
+    { "id": 10, "store": "rema", "category": "Kød & fisk", "name": "Hakket svinekød 8-14%", "nameEn": "Ground pork 8-14%", "unit": "400 g", "price": 19.95, "was": 29.95 },
+    { "id": 11, "store": "rema", "category": "Frugt & grønt", "name": "Tomater", "nameEn": "Tomatoes", "unit": "500 g", "price": 12.0, "was": 18.0 },
+    { "id": 12, "store": "rema", "category": "Kolonial", "name": "Pasta, penne", "nameEn": "Pasta, penne", "unit": "500 g", "price": 8.0, "was": 11.0 },
+    { "id": 13, "store": "365", "category": "Kød & fisk", "name": "Frosne rejer", "nameEn": "Frozen shrimp", "unit": "400 g", "price": 29.0, "was": 42.0 },
+    { "id": 14, "store": "365", "category": "Kolonial", "name": "Ris, jasmin", "nameEn": "Jasmine rice", "unit": "1 kg", "price": 15.0, "was": 22.0 },
+    { "id": 15, "store": "365", "category": "Mejeri", "name": "Flødeost, naturel", "nameEn": "Cream cheese, plain", "unit": "150 g", "price": 12.0, "was": 16.5 },
+    { "id": 16, "store": "netto", "category": "Mejeri", "name": "Sødmælk", "nameEn": "Whole milk", "unit": "1 L", "price": 6.5, "was": 8.5 },
+    { "id": 17, "store": "lidl", "category": "Frugt & grønt", "name": "Kartofler", "nameEn": "Potatoes", "unit": "2 kg", "price": 9.95, "was": 14.95 }
+  ]
+}

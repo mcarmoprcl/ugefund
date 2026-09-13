@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Ugefund — weekly Danish grocery deals</title>
+<meta name="description" content="This week's grocery deals across Lidl, Føtex, Netto, Rema 1000 and 365discount, turned into quick dinners." />
+
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="icon-192.png" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<meta name="theme-color" content="#5B7A5E" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Ugefund" />
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+  :root {
+    --bg: #FAFAF8; --ink: #24241F; --ink-soft: #6B6A62; --ink-faint: #9B9A90;
+    --line: #E6E3DA; --card: #FFFFFF; --accent: #5B7A5E; --accent-soft: #EAF0E7;
+    --tag: #E8B94A; --heart: #C97B63; --font-head: 'Quicksand', sans-serif; --font-body: 'Inter', sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); font-family: var(--font-body); color: var(--ink); }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 40px 20px 96px; }
+  h1 { font-family: var(--font-head); font-weight: 700; font-size: 32px; margin: 0; }
+  h2 { font-family: var(--font-head); font-weight: 600; font-size: 20px; margin: 0 0 16px; }
+  .row { display: flex; align-items: center; gap: 8px; }
+  .between { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .muted { color: var(--ink-soft); }
+  .faint { color: var(--ink-faint); }
+  .hero {
+    display: flex; align-items: center; gap: 14px; background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 16px 18px; margin-bottom: 32px; font-size: 14px; line-height: 1.5;
+  }
+  .chip {
+    border: 1px solid var(--line); background: var(--card); color: var(--ink-soft); border-radius: 999px;
+    padding: 6px 14px; font-size: 13px; font-weight: 500; cursor: pointer; display: inline-flex;
+    align-items: center; gap: 6px; font-family: var(--font-body);
+  }
+  .chip.active { color: var(--ink); }
+  .dot { width: 8px; height: 8px; border-radius: 999px; display: inline-block; flex-shrink: 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .search-wrap { position: relative; margin-bottom: 40px; }
+  .search-wrap svg { position: absolute; left: 12px; top: 12px; }
+  #search {
+    width: 100%; padding: 10px 12px 10px 34px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--card); font-size: 14px; color: var(--ink); font-family: var(--font-body);
+  }
+  .cat-block { margin-bottom: 22px; }
+  .cat-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px; font-size: 13px; }
+  .deal-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+  .deal-row { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; gap: 12px; border-bottom: 1px solid var(--line); }
+  .deal-row:last-child { border-bottom: none; }
+  .price-was { font-size: 12px; color: var(--ink-soft); text-decoration: line-through; }
+  .price-now { font-size: 14px; font-weight: 600; }
+  .pct {
+    font-size: 12px; font-weight: 600; color: #8A6A1A; background: var(--tag); padding: 3px 8px; border-radius: 999px;
+  }
+  .meal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+  .meal-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; cursor: pointer; transition: border-color .15s ease; }
+  .meal-card:hover { border-color: var(--accent); }
+  .meal-card .chev { transition: transform .15s ease; }
+  .meal-card.open .chev { transform: rotate(180deg); }
+  .heart-btn { background: none; border: none; cursor: pointer; padding: 4px; display: flex; }
+  .heart-btn:active { transform: scale(0.88); }
+  .meal-detail { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; display: none; }
+  .meal-card.open .meal-detail { display: block; }
+  .meal-detail ul, .meal-detail ol { margin: 0; padding: 0; }
+  .meal-detail ul { list-style: none; margin-bottom: 12px; }
+  .meal-detail li { font-size: 13px; padding: 5px 0; }
+  .ing-row { display: flex; justify-content: space-between; gap: 8px; }
+  .meal-detail ol { padding-left: 18px; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
+  .section-label { font-size: 12px; font-weight: 600; margin-bottom: 6px; }
+  .badge-soft {
+    font-size: 13px; margin-top: 8px; background: var(--accent-soft); display: inline-block; padding: 4px 10px; border-radius: 6px;
+  }
+  input:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  @media (max-width: 420px) { h1 { font-size: 26px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header style="margin-bottom:36px;">
+    <div class="between">
+      <h1>Ugefund</h1>
+      <span class="muted" style="font-size:14px;" id="last-updated">Loading…</span>
+    </div>
+    <p class="muted" style="font-size:15px; margin-top:6px; line-height:1.5;">
+      This week's grocery deals across Lidl, Føtex, Netto, Rema 1000 and 365discount — turned into quick dinners.
+    </p>
+  </header>
+
+  <div class="hero" id="hero"></div>
+
+  <div class="chips" id="store-chips"></div>
+
+  <div class="search-wrap">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6B6A62" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="search" placeholder="Search deals…" />
+  </div>
+
+  <section style="margin-bottom:56px;">
+    <h2>This week's deals</h2>
+    <div id="deals-container"></div>
+  </section>
+
+  <section>
+    <div class="between" style="margin-bottom:4px;">
+      <h2 style="margin-bottom:0;">Quick dinners from this week's deals</h2>
+      <button class="chip" id="saved-toggle">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#6B6A62" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
+        Saved only
+      </button>
+    </div>
+    <p class="muted" style="font-size:13px; margin-bottom:16px;">
+      Tap a meal to see every ingredient and the steps. Highlighted ingredients are on sale right now.
+    </p>
+    <p class="muted" id="no-saved" style="display:none; font-size:14px;">No saved recipes yet — tap the heart on a meal to save it here.</p>
+    <div class="meal-grid" id="meal-grid"></div>
+  </section>
+
+</div>
+
+<script>
+const STORES = [
+  { id: "lidl", name: "Lidl", color: "#4A6FA5" },
+  { id: "foetex", name: "Føtex", color: "#B5573F" },
+  { id: "netto", name: "Netto", color: "#C79A2B" },
+  { id: "rema", name: "Rema 1000", color: "#3E7C74" },
+  { id: "365", name: "365discount", color: "#7D5BA6" },
+];
+const CATEGORIES = {
+  "Kød & fisk": "Meat & fish", "Mejeri": "Dairy", "Frugt & grønt": "Fruit & veg", "Kolonial": "Pantry",
+};
+const MEALS = [
+  { id:"curry-kylling", name:"Hurtig kyllingecurry med ris", nameEn:"Quick chicken curry with rice", time:20, servings:4,
+    ingredients:[["Kyllingefileter","Chicken fillets"],["Løg","Onion"],["Ris","Rice"],["Karry (skabsvare)","Curry powder (pantry)"],["Fløde eller kokosmælk","Cream or coconut milk"]],
+    steps:["Cut the chicken into cubes and fry in a little oil over high heat.","Add chopped onion and curry powder, cook for 2 min.","Pour in cream or coconut milk, let simmer for 8-10 min.","Serve with cooked rice."] },
+  { id:"bolognese", name:"Pasta med hakket oksekød", nameEn:"Pasta with ground beef", time:25, servings:4,
+    ingredients:[["Hakket oksekød 8-12%","Ground beef 8-12%"],["Løg","Onion"],["Tomater","Tomatoes"],["Pasta, penne","Pasta, penne"],["Hvidløg (skabsvare)","Garlic (pantry)"]],
+    steps:["Sauté onion and garlic, add the beef and brown it well.","Add chopped tomatoes, let simmer for 10-12 min.","Cook the pasta as per the package, then mix everything together."] },
+  { id:"laks-gront", name:"Ovnbagt laks med agurksalat", nameEn:"Oven-baked salmon with cucumber salad", time:20, servings:2,
+    ingredients:[["Laksefileter","Salmon fillets"],["Agurk","Cucumber"],["Citron (skabsvare)","Lemon (pantry)"],["Ris","Rice"]],
+    steps:["Preheat the oven to 200°C and bake the salmon for 12-14 min.","Slice the cucumber thinly and toss with lemon, salt and oil.","Serve the salmon with rice and the cucumber salad."] },
+  { id:"aeggekage", name:"Æggekage med løg", nameEn:"Onion omelette", time:12, servings:2,
+    ingredients:[["Æg","Eggs"],["Løg","Onion"],["Rugbrød","Rye bread"],["Sødmælk","Whole milk"]],
+    steps:["Whisk the eggs with a splash of milk, salt and pepper.","Sauté chopped onion until soft, then pour in the egg mixture.","Cook over low heat until set. Serve with rye bread."] },
+  { id:"reje-karry", name:"Rejer i karry med ris", nameEn:"Shrimp curry with rice", time:15, servings:3,
+    ingredients:[["Frosne rejer","Frozen shrimp"],["Løg","Onion"],["Karry (skabsvare)","Curry powder (pantry)"],["Ris","Rice"],["Flødeost, naturel","Cream cheese, plain"]],
+    steps:["Thaw the shrimp, then sauté onion and curry powder in a pot.","Add cream cheese and a little water, stir into a creamy sauce.","Fold in the shrimp for the last 2 min. Serve with rice."] },
+  { id:"svin-kartofler", name:"Hakket svinekød med kartofler", nameEn:"Ground pork with potatoes", time:25, servings:4,
+    ingredients:[["Hakket svinekød 8-14%","Ground pork 8-14%"],["Kartofler","Potatoes"],["Løg","Onion"],["Tomater","Tomatoes"]],
+    steps:["Boil the potatoes until tender, about 15 min.","Brown the meat and onion in a pan, then add chopped tomatoes.","Simmer for 5 min and serve together with the potatoes."] },
+];
+
+let DEALS = [];
+let STORE_LOGOS = {};
+let activeStores = new Set(STORES.map(s => s.id));
+let query = "";
+let openMealId = null;
+let savedOnly = false;
+let savedIds = new Set(JSON.parse(localStorage.getItem("ugefund-saved") || "[]"));
+
+const norm = s => (s || "").toLowerCase();
+const storeInfo = id => STORES.find(s => s.id === id);
+function storeMark(id, size) {
+  const s = storeInfo(id);
+  const logo = STORE_LOGOS[id];
+  if (logo) {
+    return `<img src="${logo}" alt="${s ? s.name : id} logo" style="width:${size}px; height:${size}px; border-radius:999px; object-fit:cover; flex-shrink:0; background:#fff; border:1px solid var(--line);" />`;
+  }
+  return `<span class="dot" style="background:${s ? s.color : "#999"}"></span>`;
+}
+const discountPct = d => Math.round((1 - d.price / d.was) * 100);
+const dealMatches = (deal, ingDa) => norm(deal.name).includes(norm(ingDa)) || norm(ingDa).includes(norm(deal.name));
+
+function persistSaved() {
+  localStorage.setItem("ugefund-saved", JSON.stringify([...savedIds]));
+}
+
+async function loadDeals() {
+  try {
+    const res = await fetch("./deals.json", { cache: "no-store" });
+    const data = await res.json();
+    DEALS = data.deals || [];
+    STORE_LOGOS = data.storeLogos || {};
+    document.getElementById("last-updated").textContent = data.lastUpdated
+      ? "Updated " + data.lastUpdated
+      : "";
+  } catch (e) {
+    document.getElementById("last-updated").textContent = "Couldn't load deals.json";
+    DEALS = [];
+  }
+  render();
+}
+
+function renderChips() {
+  const el = document.getElementById("store-chips");
+  el.innerHTML = "";
+  STORES.forEach(s => {
+    const b = document.createElement("button");
+    b.className = "chip" + (activeStores.has(s.id) ? " active" : "");
+    b.style.borderColor = activeStores.has(s.id) ? s.color : "";
+    b.style.background = activeStores.has(s.id) ? s.color + "1A" : "";
+    b.innerHTML = `${storeMark(s.id, 16)}${s.name}`;
+    b.onclick = () => {
+      activeStores.has(s.id) ? activeStores.delete(s.id) : activeStores.add(s.id);
+      render();
+    };
+    el.appendChild(b);
+  });
+}
+
+function filteredDeals() {
+  return DEALS.filter(d =>
+    activeStores.has(d.store) &&
+    (norm(d.name).includes(norm(query)) || norm(d.nameEn).includes(norm(query)))
+  ).sort((a, b) => discountPct(b) - discountPct(a));
+}
+
+function renderHero() {
+  const hero = document.getElementById("hero");
+  if (DEALS.length === 0) { hero.style.display = "none"; return; }
+  hero.style.display = "flex";
+  const best = [...DEALS].sort((a, b) => discountPct(b) - discountPct(a))[0];
+  const s = storeInfo(best.store);
+  const heroThumb = best.image
+    ? `<img src="${best.image}" alt="" style="width:44px; height:44px; border-radius:8px; object-fit:cover; flex-shrink:0; border:1px solid var(--line);" />`
+    : `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="${'#5B7A5E'}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M12 3v3m0 12v3m9-9h-3M6 12H3m14.5-6.5-2 2m-9 9-2 2m13-2-2-2m-9-9-2-2"/></svg>`;
+  hero.innerHTML = `
+    ${heroThumb}
+    <div>Biggest saving this week: <strong>${best.nameEn || best.name}</strong>
+    ${best.nameEn && best.nameEn !== best.name ? `<span class="faint">(${best.name})</span>` : ""}
+    (${best.unit || ""}) at <strong style="color:${s ? s.color : "inherit"}">${s ? s.name : best.store}</strong> —
+    ${best.price.toFixed(2)} kr instead of ${best.was.toFixed(2)} kr, ${discountPct(best)}% off.</div>`;
+}
+
+function renderDeals() {
+  const container = document.getElementById("deals-container");
+  const deals = filteredDeals();
+  if (deals.length === 0) {
+    container.innerHTML = `<p class="muted" style="font-size:14px;">No deals match — try another search or store.</p>`;
+    return;
+  }
+  const cats = [];
+  deals.forEach(d => { if (!cats.includes(d.category)) cats.push(d.category); });
+
+  container.innerHTML = cats.map(cat => {
+    const items = deals.filter(d => d.category === cat);
+    const rows = items.map(d => {
+      const s = storeInfo(d.store);
+      const showDa = d.nameEn && d.nameEn !== d.name;
+      const thumb = d.image
+        ? `<img src="${d.image}" alt="" style="width:44px; height:44px; border-radius:8px; object-fit:cover; flex-shrink:0; border:1px solid var(--line);" />`
+        : storeMark(d.store, 10);
+      return `
+        <div class="deal-row">
+          <div class="row" style="min-width:0;">
+            ${thumb}
+            <div style="min-width:0;">
+              <div style="font-size:14px; font-weight:500;">${d.nameEn || d.name}</div>
+              ${showDa ? `<div class="faint" style="font-size:11px;">${d.name}</div>` : ""}
+              <div class="muted" style="font-size:12px; margin-top:2px; display:flex; align-items:center; gap:5px;">${storeMark(d.store, 14)}${s ? s.name : d.store} · ${d.unit || ""}</div>
+            </div>
+          </div>
+          <div class="row" style="flex-shrink:0;">
+            <span class="price-was">${d.was.toFixed(2)} kr</span>
+            <span class="price-now">${d.price.toFixed(2)} kr</span>
+            <span class="pct">-${discountPct(d)}%</span>
+          </div>
+        </div>`;
+    }).join("");
+    return `
+      <div class="cat-block">
+        <div class="cat-head"><span class="muted" style="font-weight:500;">${CATEGORIES[cat] || cat}</span><span class="faint" style="font-size:11px;">${cat}</span></div>
+        <div class="deal-card">${rows}</div>
+      </div>`;
+  }).join("");
+}
+
+function rankedMeals() {
+  const withMatches = MEALS.map(m => {
+    const matched = m.ingredients.map(([da, en]) => ({
+      da, en, deal: DEALS.find(d => dealMatches(d, da)),
+    })).filter(x => x.deal);
+    return { ...m, matched, matchCount: matched.length };
+  });
+  const list = savedOnly ? withMatches.filter(m => savedIds.has(m.id)) : withMatches;
+  return list.sort((a, b) => b.matchCount - a.matchCount);
+}
+
+function renderMeals() {
+  const grid = document.getElementById("meal-grid");
+  const meals = rankedMeals();
+  document.getElementById("no-saved").style.display = (savedOnly && meals.length === 0) ? "block" : "none";
+
+  grid.innerHTML = meals.map(m => {
+    const open = openMealId === m.id;
+    const isSaved = savedIds.has(m.id);
+    const ingredientsHtml = m.ingredients.map(([da, en]) => {
+      const match = m.matched.find(x => x.da === da);
+      return `<li class="ing-row"><span>${en} <span class="faint" style="font-size:11px;">(${da})</span></span>
+        ${match ? `<span style="font-size:11px; color:var(--accent); font-weight:500; white-space:nowrap;">${storeInfo(match.deal.store).name} · ${match.deal.price.toFixed(2)} kr</span>` : ""}</li>`;
+    }).join("");
+    const stepsHtml = m.steps.map(s => `<li>${s}</li>`).join("");
+    return `
+      <div class="meal-card ${open ? "open" : ""}" data-id="${m.id}">
+        <div class="between" style="align-items:flex-start;">
+          <div>
+            <h3 style="font-family:var(--font-head); font-weight:600; font-size:16px; margin:0;">${m.nameEn}</h3>
+            <div class="faint" style="font-size:12px; margin-top:2px;">${m.name}</div>
+          </div>
+          <div class="row" style="flex-shrink:0;">
+            <button class="heart-btn" data-heart="${m.id}" aria-label="Save recipe">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="${isSaved ? "#C97B63" : "none"}" stroke="${isSaved ? "#C97B63" : "#9B9A90"}" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
+            </button>
+            <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6B6A62" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="row" style="gap:14px; margin-top:10px; font-size:12px;" class="muted">
+          <span class="row muted" style="gap:4px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#6B6A62" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>${m.time} min</span>
+          <span class="muted">${m.servings} servings</span>
+          <span style="color:var(--accent); font-weight:500;">${m.matchCount}/${m.ingredients.length} on sale</span>
+        </div>
+        <div class="meal-detail">
+          <div class="section-label">Ingredients you'll need</div>
+          <ul>${ingredientsHtml}</ul>
+          <div class="section-label">Steps</div>
+          <ol>${stepsHtml}</ol>
+        </div>
+      </div>`;
+  }).join("");
+
+  grid.querySelectorAll(".meal-card").forEach(card => {
+    card.addEventListener("click", (e) => {
+      if (e.target.closest("[data-heart]")) return;
+      const id = card.dataset.id;
+      openMealId = openMealId === id ? null : id;
+      render();
+    });
+  });
+  grid.querySelectorAll("[data-heart]").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const id = btn.dataset.heart;
+      savedIds.has(id) ? savedIds.delete(id) : savedIds.add(id);
+      persistSaved();
+      render();
+    });
+  });
+}
+
+function render() {
+  renderChips();
+  renderHero();
+  renderDeals();
+  renderMeals();
+}
+
+document.getElementById("search").addEventListener("input", (e) => { query = e.target.value; render(); });
+document.getElementById("saved-toggle").addEventListener("click", (e) => {
+  savedOnly = !savedOnly;
+  e.currentTarget.classList.toggle("active", savedOnly);
+  render();
+});
+
+loadDeals();
+</script>
+</body>
+</html>
