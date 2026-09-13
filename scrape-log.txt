@@ -1,0 +1,2 @@
+[2026-09-13 14:12 UTC] Warning: couldn't find a dealer match for: lidl, netto, rema
+[2026-09-13 14:12 UTC] Scrape returned zero deals — keeping existing deals.json to be safe.
