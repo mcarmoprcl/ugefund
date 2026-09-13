@@ -1,23 +1,78 @@
 {
-  "lastUpdated": "sample data — not yet scraped",
-  "storeLogos": {},
+  "lastUpdated": "2026-09-13 14:25 UTC",
+  "storeLogos": {
+    "365": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FDWZE1w%2F_LRneGSszytxRwHkQRjyg&w=300&s=6cd4a1208e0bd7da9265f597f3ad04a1",
+    "foetex": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FaUchSAqn9T_7L7QJVRRP0&w=300&s=b8d9a7b82e29592785d9feb927a9e00f",
+    "lidl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F71c90%2FDHyxgmc8go63GLoxLAXcn&w=300&s=965f7f6e208537b661daba1c7373ba4c",
+    "netto": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F9ba51%2FzvP5c3dxng13VGEQ2j6wd&w=300&s=6777eea3913df6bbbe3d0a6b6d2574a0",
+    "rema": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F11deC%2FNSL4hmIeysfy2UPYcO5BT&w=300&s=7090b48154c10584df09f02c09424985"
+  },
   "deals": [
-    { "id": 1, "store": "lidl", "category": "Kød & fisk", "name": "Hakket oksekød 8-12%", "nameEn": "Ground beef 8-12%", "unit": "400 g", "price": 29.95, "was": 39.95 },
-    { "id": 2, "store": "lidl", "category": "Frugt & grønt", "name": "Bananer", "nameEn": "Bananas", "unit": "1 kg", "price": 6.95, "was": 12.95 },
-    { "id": 3, "store": "lidl", "category": "Kolonial", "name": "Toastbrød", "nameEn": "Sandwich bread", "unit": "500 g", "price": 12.0, "was": 16.0 },
-    { "id": 4, "store": "foetex", "category": "Kød & fisk", "name": "Kyllingefileter", "nameEn": "Chicken fillets", "unit": "1 kg", "price": 39.95, "was": 69.95 },
-    { "id": 5, "store": "foetex", "category": "Frugt & grønt", "name": "Løg, net", "nameEn": "Onions, net bag", "unit": "1 kg", "price": 8.0, "was": 12.0 },
-    { "id": 6, "store": "foetex", "category": "Kolonial", "name": "Rugbrød", "nameEn": "Rye bread", "unit": "800 g", "price": 15.0, "was": 19.95 },
-    { "id": 7, "store": "netto", "category": "Kød & fisk", "name": "Laksefileter", "nameEn": "Salmon fillets", "unit": "300 g", "price": 39.95, "was": 59.95 },
-    { "id": 8, "store": "netto", "category": "Frugt & grønt", "name": "Agurk", "nameEn": "Cucumber", "unit": "pcs", "price": 5.0, "was": 8.0 },
-    { "id": 9, "store": "netto", "category": "Mejeri", "name": "Æg", "nameEn": "Eggs", "unit": "15 pcs", "price": 24.95, "was": 32.0 },
-    { "id": 10, "store": "rema", "category": "Kød & fisk", "name": "Hakket svinekød 8-14%", "nameEn": "Ground pork 8-14%", "unit": "400 g", "price": 19.95, "was": 29.95 },
-    { "id": 11, "store": "rema", "category": "Frugt & grønt", "name": "Tomater", "nameEn": "Tomatoes", "unit": "500 g", "price": 12.0, "was": 18.0 },
-    { "id": 12, "store": "rema", "category": "Kolonial", "name": "Pasta, penne", "nameEn": "Pasta, penne", "unit": "500 g", "price": 8.0, "was": 11.0 },
-    { "id": 13, "store": "365", "category": "Kød & fisk", "name": "Frosne rejer", "nameEn": "Frozen shrimp", "unit": "400 g", "price": 29.0, "was": 42.0 },
-    { "id": 14, "store": "365", "category": "Kolonial", "name": "Ris, jasmin", "nameEn": "Jasmine rice", "unit": "1 kg", "price": 15.0, "was": 22.0 },
-    { "id": 15, "store": "365", "category": "Mejeri", "name": "Flødeost, naturel", "nameEn": "Cream cheese, plain", "unit": "150 g", "price": 12.0, "was": 16.5 },
-    { "id": 16, "store": "netto", "category": "Mejeri", "name": "Sødmælk", "nameEn": "Whole milk", "unit": "1 L", "price": 6.5, "was": 8.5 },
-    { "id": 17, "store": "lidl", "category": "Frugt & grønt", "name": "Kartofler", "nameEn": "Potatoes", "unit": "2 kg", "price": 9.95, "was": 14.95 }
+    {
+      "id": 1,
+      "store": "lidl",
+      "category": "Mejeri",
+      "name": "GELATELLI High Protein isbæger",
+      "nameEn": "GELATELLI High Protein isbæger",
+      "unit": "500 ml",
+      "price": 25.0,
+      "was": 32.95,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-6.webp&w=600&x1r=0&x2r=0.99&y1r=0.492&y2r=0.72&s=9fd97d0eec46b900fd553b0dd7874cb1"
+    },
+    {
+      "id": 2,
+      "store": "lidl",
+      "category": "Kolonial",
+      "name": "TRATTORIA ALFREDO High Protein pizza",
+      "nameEn": "TRATTORIA ALFREDO High Protein pizza",
+      "unit": "254 g",
+      "price": 20.0,
+      "was": 29.95,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-6.webp&w=600&x1r=0&x2r=0.518&y1r=0.718&y2r=0.944&s=c7591a8f65d4ca5d23f16b5e2ccd983c"
+    },
+    {
+      "id": 3,
+      "store": "lidl",
+      "category": "Mejeri",
+      "name": "PHILADELPHIA Flødeost",
+      "nameEn": "PHILADELPHIA cream cheese",
+      "unit": "200 g",
+      "price": 14.95,
+      "was": 27.95,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-35.webp&w=600&x1r=0.5062&x2r=0.9926&y1r=0.0826&y2r=0.4561&s=14382aef5b8c3a2186928b00b05e6a40"
+    },
+    {
+      "id": 4,
+      "store": "rema",
+      "category": "Kød & fisk",
+      "name": "Tulip Spareribs, pulled pork, pulled chicken taco eller 5-pak bacon i skiver",
+      "nameEn": "Tulip Spareribs, pulled pork, pulled chicken taco eller 5-pak bacon i skiver",
+      "unit": "450 g",
+      "price": 39.0,
+      "was": 49.95,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-1.webp&w=600&x1r=0.02&x2r=0.98&y1r=0.14&y2r=0.44&s=c57ae58196c97157eed99f10f92b1eb5"
+    },
+    {
+      "id": 5,
+      "store": "rema",
+      "category": "Kød & fisk",
+      "name": "REMA 1000 Panerede fisk",
+      "nameEn": "REMA 1000 Panerede fisk",
+      "unit": "500 g",
+      "price": 29.0,
+      "was": 39.95,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-4.webp&w=600&x1r=0.02&x2r=0.48&y1r=0.47&y2r=0.74&s=6d6dc309f46fd1123aa936ec65948a11"
+    },
+    {
+      "id": 6,
+      "store": "rema",
+      "category": "Kolonial",
+      "name": "Karat kaffe",
+      "nameEn": "Karat kaffe",
+      "unit": "400 g",
+      "price": 35.0,
+      "was": 57.0,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-26.webp&w=600&x1r=0.16&x2r=0.98&y1r=0&y2r=0.56&s=4f90bf47225395ba4036c3e4c241d2d2"
+    }
   ]
 }
