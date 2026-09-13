@@ -87,8 +87,6 @@ def log(message: str) -> None:
 
 
 def fetch_dealers() -> list[dict]:
-    """Fetch all dealers for DK, paging through results (the API caps each
-    page at 100, and there are far more than 100 Danish retailers)."""
     dealers = []
     offset = 0
     page_size = 100
@@ -165,11 +163,13 @@ def build_deals() -> tuple[list[dict], dict]:
         for raw in offers:
             pricing = raw.get("pricing") or {}
             price = pricing.get("price")
-            was = pricing.get("pre_price")
+            was = pricing.get("pre_price")  # often missing — not every offer shows a "before" price
             heading = raw.get("heading")
 
-            if not heading or price is None or was is None or was <= price:
+            if not heading or price is None:
                 continue
+            if was is not None and was <= price:
+                was = None
 
             deals.append(
                 {
@@ -180,14 +180,14 @@ def build_deals() -> tuple[list[dict], dict]:
                     "nameEn": translate_best_effort(heading),
                     "unit": unit_label(raw),
                     "price": round(float(price), 2),
-                    "was": round(float(was), 2),
+                    "was": round(float(was), 2) if was is not None else None,
                     "image": (raw.get("images") or {}).get("view"),
                 }
             )
             next_id += 1
             kept += 1
 
-        log(f"{our_store_id}: fetched {len(offers)} raw offers, kept {kept} with a valid discount.")
+        log(f"{our_store_id}: fetched {len(offers)} raw offers, kept {kept} with a usable price.")
         if offers and kept == 0:
             sample = [
                 {"heading": o.get("heading"), "pricing": o.get("pricing"), "quantity": o.get("quantity")}
