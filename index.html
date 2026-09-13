@@ -23,7 +23,7 @@
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); font-family: var(--font-body); color: var(--ink); }
-  .wrap { max-width: 780px; margin: 0 auto; padding: 40px 20px 96px; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 40px 20px 96px; }
   h1 { font-family: var(--font-head); font-weight: 700; font-size: 32px; margin: 0; }
   h2 { font-family: var(--font-head); font-weight: 600; font-size: 20px; margin: 0 0 16px; }
   h3 { font-family: var(--font-head); }
@@ -50,37 +50,11 @@
     width: 100%; padding: 10px 12px 10px 34px; border-radius: 10px; border: 1px solid var(--line);
     background: var(--card); font-size: 14px; color: var(--ink); font-family: var(--font-body);
   }
-  .cat-block { margin-bottom: 22px; }
-  .cat-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px; font-size: 13px; }
-  .deal-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
-  .deal-row { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; gap: 10px; border-bottom: 1px solid var(--line); }
-  .deal-row:last-child { border-bottom: none; }
-  .price-was { font-size: 12px; color: var(--ink-soft); text-decoration: line-through; }
-  .price-now { font-size: 14px; font-weight: 600; }
-  .pct {
-    font-size: 12px; font-weight: 600; color: #8A6A1A; background: var(--tag); padding: 3px 8px; border-radius: 999px; white-space: nowrap;
-  }
-  .star-btn { background: none; border: none; cursor: pointer; padding: 3px; display: flex; flex-shrink: 0; }
-  .star-btn:active { transform: scale(0.88); }
-  .meal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
-  .meal-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; cursor: pointer; transition: border-color .15s ease; }
-  .meal-card:hover { border-color: var(--accent); }
-  .meal-card .chev { transition: transform .15s ease; }
-  .meal-card.open .chev { transform: rotate(180deg); }
-  .heart-btn { background: none; border: none; cursor: pointer; padding: 4px; display: flex; }
-  .heart-btn:active { transform: scale(0.88); }
-  .meal-detail { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; display: none; }
-  .meal-card.open .meal-detail { display: block; }
-  .meal-detail ul, .meal-detail ol { margin: 0; padding: 0; }
-  .meal-detail ul { list-style: none; margin-bottom: 12px; }
-  .meal-detail li { font-size: 13px; padding: 5px 0; }
-  .ing-row { display: flex; justify-content: space-between; gap: 8px; }
-  .meal-detail ol { padding-left: 18px; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
   .section-label { font-size: 12px; font-weight: 600; margin-bottom: 6px; }
   input:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   @media (max-width: 420px) { h1 { font-size: 26px; } }
 
-  .tile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin-bottom: 32px; }
+  .tile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-bottom: 32px; }
   .tile {
     background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px;
     cursor: pointer; text-align: left; transition: border-color .15s ease, transform .1s ease;
@@ -89,24 +63,66 @@
   .tile:active { transform: scale(0.98); }
   .tile-icon {
     width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center;
-    background: var(--tile-soft, var(--accent-soft)); margin-bottom: 10px;
+    background: var(--tile-soft, var(--accent-soft)); margin-bottom: 10px; font-size: 18px;
   }
   .tile-name { font-family: var(--font-head); font-weight: 600; font-size: 14px; color: var(--ink); }
   .tile-sub { font-size: 11px; color: var(--ink-faint); margin-top: 2px; }
   .tile-count { font-size: 11px; color: var(--tile-color, var(--accent)); font-weight: 600; margin-top: 6px; }
 
-  .fav-row {
-    display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; gap: 10px; border-bottom: 1px solid var(--line);
+  .deal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+  .deal-tile { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+  .deal-tile-img-wrap { position: relative; aspect-ratio: 1 / 1; background: var(--accent-soft); }
+  .deal-tile-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .deal-tile-img-wrap .fallback-mark { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+  .deal-badge {
+    position: absolute; top: 8px; left: 8px; font-size: 11px; font-weight: 600; color: #8A6A1A;
+    background: var(--tag); padding: 3px 7px; border-radius: 999px;
   }
-  .fav-row:last-child { border-bottom: none; }
+  .deal-badge.offer { color: var(--accent); background: rgba(255,255,255,0.92); }
+  .deal-star {
+    position: absolute; top: 6px; right: 6px; background: rgba(255,255,255,0.88); border: none; border-radius: 999px;
+    width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0;
+  }
+  .deal-star:active { transform: scale(0.9); }
+  .deal-countdown {
+    position: absolute; bottom: 8px; left: 8px; font-size: 10px; color: #fff; background: rgba(36,36,31,0.72);
+    padding: 2px 7px; border-radius: 999px;
+  }
+  .deal-tile-body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .deal-tile-name { font-size: 13px; font-weight: 500; line-height: 1.3; }
+  .deal-tile-da { font-size: 11px; color: var(--ink-faint); line-height: 1.3; }
+  .deal-tile-store { font-size: 11px; color: var(--ink-soft); display: flex; align-items: center; gap: 5px; margin-top: 2px; }
+  .deal-tile-prices { margin-top: auto; padding-top: 6px; }
+  .deal-tile-was { font-size: 11px; color: var(--ink-soft); text-decoration: line-through; }
+  .deal-tile-now { font-size: 15px; font-weight: 700; }
+  .deal-tile-unitprice { font-size: 10px; color: var(--ink-faint); }
+
+  .meal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+  .meal-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; cursor: pointer; transition: border-color .15s ease; }
+  .meal-card:hover { border-color: var(--accent); }
+  .meal-card .chev { transition: transform .15s ease; }
+  .meal-card.open .chev { transform: rotate(180deg); }
+  .icon-btn { background: none; border: none; cursor: pointer; padding: 4px; display: flex; }
+  .icon-btn:active { transform: scale(0.88); }
+  .meal-detail { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; display: none; }
+  .meal-card.open .meal-detail { display: block; }
+  .meal-detail ul, .meal-detail ol { margin: 0; padding: 0; }
+  .meal-detail ul { list-style: none; margin-bottom: 12px; }
+  .meal-detail li { font-size: 13px; padding: 5px 0; }
+  .ing-row { display: flex; justify-content: space-between; gap: 8px; }
+  .meal-detail ol { padding-left: 18px; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
+
+  .list-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+  .list-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; gap: 10px; border-bottom: 1px solid var(--line); }
+  .list-row:last-child { border-bottom: none; }
   .fav-status-on { font-size: 12px; color: var(--accent); font-weight: 600; }
   .fav-status-off { font-size: 12px; color: var(--ink-faint); }
+  .store-tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); white-space: nowrap; }
 
-  .household-row { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
-  .household-row:last-child { border-bottom: none; }
-  .store-tag {
-    font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-soft); white-space: nowrap;
-  }
+  .shop-group { margin-bottom: 14px; }
+  .shop-group-head { font-size: 12px; font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .shop-item { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .shop-item:last-child { border-bottom: none; }
 </style>
 </head>
 <body>
@@ -136,10 +152,13 @@ const STORES = [
 ];
 
 const CATEGORY_META = {
-  "Kød & fisk":    { en: "Meat & fish",  color: "#B5573F", icon: "🥩" },
-  "Mejeri":        { en: "Dairy",        color: "#4A6FA5", icon: "🥛" },
-  "Frugt & grønt": { en: "Fruit & veg",  color: "#5B7A5E", icon: "🥕" },
-  "Kolonial":      { en: "Pantry",       color: "#C79A2B", icon: "🌾" },
+  "Kød & fisk":           { en: "Meat & fish",         color: "#B5573F", icon: "🥩" },
+  "Mejeri":               { en: "Dairy",               color: "#4A6FA5", icon: "🥛" },
+  "Frugt & grønt":        { en: "Fruit & veg",         color: "#5B7A5E", icon: "🥕" },
+  "Kolonial":             { en: "Pantry",              color: "#C79A2B", icon: "🌾" },
+  "Drikkevarer":          { en: "Drinks",              color: "#2E9BB0", icon: "🥤" },
+  "Slik & chokolade":     { en: "Sweets",              color: "#C2678B", icon: "🍬" },
+  "Rengøring & hygiejne": { en: "Toiletries & cleaning", color: "#6B7A8F", icon: "🧴" },
 };
 const HOUSEHOLD_KEY = "household";
 const HOUSEHOLD_META = { en: "Household, deco & school", da: "Bolig, pynt og skole", color: "#7D5BA6", icon: "📦" };
@@ -186,11 +205,37 @@ let openMealId = null;
 let savedOnly = false;
 let savedIds = new Set(JSON.parse(localStorage.getItem("ugefund-saved") || "[]"));
 let favProducts = new Set(JSON.parse(localStorage.getItem("ugefund-fav-products") || "[]"));
+let listMealIds = new Set(JSON.parse(localStorage.getItem("ugefund-shopping-list") || "[]"));
 
 const norm = s => (s || "").toLowerCase();
 const storeInfo = id => STORES.find(s => s.id === id);
 const discountPct = d => d.was ? Math.round((1 - d.price / d.was) * 100) : null;
 const textMatches = (a, b) => norm(a).includes(norm(b)) || norm(b).includes(norm(a));
+
+function unitPrice(d) {
+  const q = d.qty;
+  if (!q) return null;
+  if (q.size && q.unit) {
+    const u = q.unit.toLowerCase();
+    if (u === "g") return { value: d.price / (q.size / 1000), label: "kr/kg" };
+    if (u === "kg") return { value: d.price / q.size, label: "kr/kg" };
+    if (u === "ml") return { value: d.price / (q.size / 1000), label: "kr/L" };
+    if (u === "l") return { value: d.price / q.size, label: "kr/L" };
+    if (u === "cl") return { value: d.price / (q.size / 100), label: "kr/L" };
+  }
+  if (q.pieces) return { value: d.price / q.pieces, label: "kr/pc" };
+  return null;
+}
+
+function countdownLabel(d) {
+  if (!d.validUntil) return null;
+  const end = new Date(d.validUntil);
+  if (isNaN(end)) return null;
+  const diffMs = end - new Date();
+  if (diffMs <= 0) return null;
+  const days = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+  return days <= 1 ? "Ends today" : `Ends in ${days}d`;
+}
 
 function storeMark(id, size) {
   const s = storeInfo(id);
@@ -203,9 +248,16 @@ function storeMark(id, size) {
 
 function persistSaved() { localStorage.setItem("ugefund-saved", JSON.stringify([...savedIds])); }
 function persistFavs() { localStorage.setItem("ugefund-fav-products", JSON.stringify([...favProducts])); }
+function persistList() { localStorage.setItem("ugefund-shopping-list", JSON.stringify([...listMealIds])); }
 
 function starIcon(filled) {
-  return `<svg width="16" height="16" viewBox="0 0 24 24" fill="${filled ? "#E8B94A" : "none"}" stroke="${filled ? "#E8B94A" : "#9B9A90"}" stroke-width="2" stroke-linejoin="round"><polygon points="12 2 15 9 22 9.5 16.5 14.5 18.5 22 12 17.5 5.5 22 7.5 14.5 2 9.5 9 9"/></svg>`;
+  return `<svg width="15" height="15" viewBox="0 0 24 24" fill="${filled ? "#E8B94A" : "none"}" stroke="${filled ? "#E8B94A" : "#9B9A90"}" stroke-width="2" stroke-linejoin="round"><polygon points="12 2 15 9 22 9.5 16.5 14.5 18.5 22 12 17.5 5.5 22 7.5 14.5 2 9.5 9 9"/></svg>`;
+}
+function heartIcon(filled) {
+  return `<svg width="17" height="17" viewBox="0 0 24 24" fill="${filled ? "#C97B63" : "none"}" stroke="${filled ? "#C97B63" : "#9B9A90"}" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>`;
+}
+function basketIcon(filled) {
+  return `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="${filled ? "var(--accent)" : "#9B9A90"}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" fill="${filled ? "var(--accent-soft)" : "none"}"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>`;
 }
 
 async function loadDeals() {
@@ -225,30 +277,34 @@ async function loadDeals() {
 function goHome() { view = "home"; activeCategory = null; query = ""; render(); window.scrollTo(0, 0); }
 function goCategory(catId) { view = "category"; activeCategory = catId; query = ""; render(); window.scrollTo(0, 0); }
 
-function dealRowHtml(d) {
+function dealTileHtml(d) {
   const s = storeInfo(d.store);
-  const showDa = d.nameEn && d.nameEn !== d.name;
   const isFav = favProducts.has(d.name);
-  const thumb = d.image
-    ? `<img src="${d.image}" alt="" style="width:44px; height:44px; border-radius:8px; object-fit:cover; flex-shrink:0; border:1px solid var(--line);" />`
-    : storeMark(d.store, 10);
+  const pct = discountPct(d);
+  const up = unitPrice(d);
+  const countdown = countdownLabel(d);
+  const img = d.image
+    ? `<img src="${d.image}" alt="" />`
+    : `<div class="fallback-mark">${storeMark(d.store, 34)}</div>`;
   return `
-    <div class="deal-row">
-      <div class="row" style="min-width:0;">
-        ${thumb}
-        <div style="min-width:0;">
-          <div style="font-size:14px; font-weight:500;">${d.nameEn || d.name}</div>
-          ${showDa ? `<div class="faint" style="font-size:11px;">${d.name}</div>` : ""}
-          <div class="muted" style="font-size:12px; margin-top:2px; display:flex; align-items:center; gap:5px;">${storeMark(d.store, 14)}${s ? s.name : d.store} · ${d.unit || ""}</div>
-        </div>
+    <div class="deal-tile">
+      <div class="deal-tile-img-wrap">
+        ${img}
+        ${pct !== null ? `<span class="deal-badge">-${pct}%</span>` : `<span class="deal-badge offer">Offer</span>`}
+        <button class="deal-star" data-fav="${encodeURIComponent(d.name)}" aria-label="Favorite this product">${starIcon(isFav)}</button>
+        ${countdown ? `<span class="deal-countdown">${countdown}</span>` : ""}
       </div>
-      <div class="row" style="flex-shrink:0;">
-        <button class="star-btn" data-fav="${encodeURIComponent(d.name)}" aria-label="Favorite this product" title="Favorite this product">${starIcon(isFav)}</button>
-        ${d.was ? `<span class="price-was">${d.was.toFixed(2)} kr</span>` : ""}
-        <span class="price-now">${d.price.toFixed(2)} kr</span>
-        ${discountPct(d) !== null
-          ? `<span class="pct">-${discountPct(d)}%</span>`
-          : `<span class="pct" style="background:var(--accent-soft); color:var(--accent);">Offer</span>`}
+      <div class="deal-tile-body">
+        <div class="deal-tile-name">${d.nameEn || d.name}</div>
+        <div class="deal-tile-da">${d.name}</div>
+        <div class="deal-tile-store">${storeMark(d.store, 12)}${s ? s.name : d.store} · ${d.unit || ""}</div>
+        <div class="deal-tile-prices">
+          <div class="row" style="gap:6px;">
+            ${d.was ? `<span class="deal-tile-was">${d.was.toFixed(2)} kr</span>` : ""}
+            <span class="deal-tile-now">${d.price.toFixed(2)} kr</span>
+          </div>
+          ${up ? `<div class="deal-tile-unitprice">${up.value.toFixed(2)} ${up.label}</div>` : ""}
+        </div>
       </div>
     </div>`;
 }
@@ -272,15 +328,15 @@ function favoritesSectionHtml() {
     if (match) {
       const s = storeInfo(match.store);
       return `
-        <div class="fav-row">
-          <div class="row"><button class="star-btn" data-fav="${encodeURIComponent(name)}">${starIcon(true)}</button>
+        <div class="list-row">
+          <div class="row"><button class="icon-btn" data-fav="${encodeURIComponent(name)}">${starIcon(true)}</button>
             <span style="font-size:14px;">${match.nameEn || name}</span></div>
           <span class="fav-status-on">On sale — ${match.price.toFixed(2)} kr at ${s ? s.name : match.store}</span>
         </div>`;
     }
     return `
-      <div class="fav-row">
-        <div class="row"><button class="star-btn" data-fav="${encodeURIComponent(name)}">${starIcon(true)}</button>
+      <div class="list-row">
+        <div class="row"><button class="icon-btn" data-fav="${encodeURIComponent(name)}">${starIcon(true)}</button>
           <span style="font-size:14px;">${name}</span></div>
         <span class="fav-status-off">Not on sale this week</span>
       </div>`;
@@ -289,7 +345,60 @@ function favoritesSectionHtml() {
     <section style="margin-bottom:32px;">
       <h2>Your favorite products</h2>
       <p class="muted" style="font-size:13px; margin-bottom:12px; margin-top:-10px;">Star a product anywhere on the site and it'll show up here, so you know the moment it's on sale again.</p>
-      <div class="deal-card">${rows}</div>
+      <div class="list-card">${rows}</div>
+    </section>`;
+}
+
+function buildShoppingList() {
+  const meals = MEALS.filter(m => listMealIds.has(m.id));
+  const groups = {};
+  const unmatched = [];
+  const seen = new Set();
+  meals.forEach(m => {
+    m.ingredients.forEach(([da, en]) => {
+      const key = da.toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
+      const deal = DEALS.find(d => textMatches(d.name, da));
+      if (deal) {
+        (groups[deal.store] = groups[deal.store] || []).push({ da, en, deal });
+      } else {
+        unmatched.push({ da, en });
+      }
+    });
+  });
+  return { meals, groups, unmatched };
+}
+
+function shoppingListSectionHtml() {
+  if (listMealIds.size === 0) return "";
+  const { meals, groups, unmatched } = buildShoppingList();
+  const groupsHtml = Object.entries(groups).map(([storeId, items]) => {
+    const s = storeInfo(storeId);
+    const itemsHtml = items.map(it => `
+      <div class="shop-item">
+        <span>${it.en} <span class="faint" style="font-size:11px;">(${it.da})</span></span>
+        <span class="muted">${it.deal.price.toFixed(2)} kr</span>
+      </div>`).join("");
+    return `
+      <div class="shop-group">
+        <div class="shop-group-head">${storeMark(storeId, 14)}${s ? s.name : storeId}</div>
+        ${itemsHtml}
+      </div>`;
+  }).join("");
+  const unmatchedHtml = unmatched.length > 0 ? `
+    <div class="shop-group">
+      <div class="shop-group-head faint">Not on sale this week</div>
+      ${unmatched.map(it => `<div class="shop-item"><span>${it.en} <span class="faint" style="font-size:11px;">(${it.da})</span></span></div>`).join("")}
+    </div>` : "";
+  return `
+    <section style="margin-bottom:32px;">
+      <div class="between" style="margin-bottom:4px;">
+        <h2 style="margin-bottom:0;">Your shopping list</h2>
+        <button class="chip" id="clear-list">Clear list</button>
+      </div>
+      <p class="muted" style="font-size:13px; margin-bottom:12px;">From ${meals.length} meal${meals.length === 1 ? "" : "s"} — grouped by store, matched against this week's deals.</p>
+      <div class="list-card" style="padding:12px 16px;">${groupsHtml}${unmatchedHtml}</div>
     </section>`;
 }
 
@@ -298,7 +407,7 @@ function tilesSectionHtml() {
     const count = DEALS.filter(d => activeStores.has(d.store) && d.category === catId).length;
     return `
       <button class="tile" data-cat="${encodeURIComponent(catId)}" style="--tile-color:${meta.color}; --tile-soft:${meta.color}1A;">
-        <div class="tile-icon" style="font-size:18px;">${meta.icon}</div>
+        <div class="tile-icon">${meta.icon}</div>
         <div class="tile-name">${meta.en}</div>
         <div class="tile-sub">${catId}</div>
         <div class="tile-count">${count} deal${count === 1 ? "" : "s"}</div>
@@ -306,7 +415,7 @@ function tilesSectionHtml() {
   }).join("");
   const householdTile = `
     <button class="tile" data-cat="${encodeURIComponent(HOUSEHOLD_KEY)}" style="--tile-color:${HOUSEHOLD_META.color}; --tile-soft:${HOUSEHOLD_META.color}1A;">
-      <div class="tile-icon" style="font-size:18px;">${HOUSEHOLD_META.icon}</div>
+      <div class="tile-icon">${HOUSEHOLD_META.icon}</div>
       <div class="tile-name">${HOUSEHOLD_META.en}</div>
       <div class="tile-sub">${HOUSEHOLD_META.da}</div>
       <div class="tile-count">Browse ideas</div>
@@ -322,12 +431,12 @@ function topDealsSectionHtml() {
   const top = [...DEALS]
     .filter(d => activeStores.has(d.store))
     .sort((a, b) => (discountPct(b) ?? -1) - (discountPct(a) ?? -1))
-    .slice(0, 6);
+    .slice(0, 8);
   if (top.length === 0) return `<p class="muted" style="font-size:14px;">No deals loaded yet.</p>`;
   return `
     <section style="margin-bottom:32px;">
       <h2>This week's best deals</h2>
-      <div class="deal-card">${top.map(dealRowHtml).join("")}</div>
+      <div class="deal-grid">${top.map(dealTileHtml).join("")}</div>
     </section>`;
 }
 
@@ -339,16 +448,13 @@ function categoryPageHtml() {
 
   if (isHousehold) {
     const rows = HOUSEHOLD_ITEMS.map(item => `
-      <div class="household-row">
+      <div class="list-row">
         <div style="flex:1; min-width:0;">
           <div style="font-size:14px; font-weight:500;">${item.en}</div>
           <div class="faint" style="font-size:11px;">${item.da}</div>
         </div>
         <div class="row" style="flex-wrap:wrap; justify-content:flex-end; gap:6px;">
-          ${item.stores.map(sid => {
-            const s = storeInfo(sid);
-            return `<span class="store-tag">${s ? s.name : sid}</span>`;
-          }).join("")}
+          ${item.stores.map(sid => { const s = storeInfo(sid); return `<span class="store-tag">${s ? s.name : sid}</span>`; }).join("")}
         </div>
       </div>`).join("");
     return `
@@ -357,7 +463,7 @@ function categoryPageHtml() {
       <p class="muted" style="font-size:13px; margin-bottom:16px;">
         General ideas for what these stores tend to carry beyond groceries — not tied to weekly specials, so no prices here.
       </p>
-      <div class="deal-card">${rows}</div>`;
+      <div class="list-card">${rows}</div>`;
   }
 
   const deals = DEALS.filter(d =>
@@ -374,7 +480,7 @@ function categoryPageHtml() {
 
   const list = deals.length === 0
     ? `<p class="muted" style="font-size:14px;">No deals match — try another search or store.</p>`
-    : `<div class="deal-card">${deals.map(dealRowHtml).join("")}</div>`;
+    : `<div class="deal-grid">${deals.map(dealTileHtml).join("")}</div>`;
 
   return `
     ${backLink}
@@ -406,6 +512,7 @@ function mealsSectionHtml() {
   const cards = meals.map(m => {
     const open = openMealId === m.id;
     const isSaved = savedIds.has(m.id);
+    const inList = listMealIds.has(m.id);
     const ingredientsHtml = m.ingredients.map(([da, en]) => {
       const match = m.matched.find(x => x.da === da);
       return `<li class="ing-row"><span>${en} <span class="faint" style="font-size:11px;">(${da})</span></span>
@@ -419,10 +526,9 @@ function mealsSectionHtml() {
             <h3 style="font-weight:600; font-size:16px; margin:0;">${m.nameEn}</h3>
             <div class="faint" style="font-size:12px; margin-top:2px;">${m.name}</div>
           </div>
-          <div class="row" style="flex-shrink:0;">
-            <button class="heart-btn" data-heart="${m.id}" aria-label="Save recipe">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="${isSaved ? "#C97B63" : "none"}" stroke="${isSaved ? "#C97B63" : "#9B9A90"}" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
-            </button>
+          <div class="row" style="flex-shrink:0; gap:2px;">
+            <button class="icon-btn" data-list="${m.id}" aria-label="Add to shopping list" title="Add to shopping list">${basketIcon(inList)}</button>
+            <button class="icon-btn" data-heart="${m.id}" aria-label="Save recipe">${heartIcon(isSaved)}</button>
             <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6B6A62" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
           </div>
         </div>
@@ -444,13 +550,10 @@ function mealsSectionHtml() {
     <section>
       <div class="between" style="margin-bottom:4px;">
         <h2 style="margin-bottom:0;">Quick dinners from this week's deals</h2>
-        <button class="chip ${savedOnly ? "active" : ""}" id="saved-toggle">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#6B6A62" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
-          Saved only
-        </button>
+        <button class="chip ${savedOnly ? "active" : ""}" id="saved-toggle">${heartIcon(savedOnly)} Saved only</button>
       </div>
       <p class="muted" style="font-size:13px; margin-bottom:16px;">
-        Tap a meal to see every ingredient and the steps. Highlighted ingredients are on sale right now.
+        Tap a meal to see every ingredient and the steps. Tap the basket to add it to your shopping list.
       </p>
       ${noSaved}
       <div class="meal-grid">${cards}</div>
@@ -470,7 +573,7 @@ function heroHtml() {
     <div class="hero">
       ${heroThumb}
       <div>${bestPct !== null ? "Biggest saving" : "Featured deal"} this week: <strong>${best.nameEn || best.name}</strong>
-      ${best.nameEn && best.nameEn !== best.name ? `<span class="faint">(${best.name})</span>` : ""}
+      <span class="faint">(${best.name})</span>
       (${best.unit || ""}) at <strong style="color:${s ? s.color : "inherit"}">${s ? s.name : best.store}</strong> —
       ${bestPct !== null
         ? `${best.price.toFixed(2)} kr instead of ${best.was.toFixed(2)} kr, ${bestPct}% off.`
@@ -501,6 +604,7 @@ function render() {
     root.innerHTML =
       heroHtml() +
       favoritesSectionHtml() +
+      shoppingListSectionHtml() +
       tilesSectionHtml() +
       topDealsSectionHtml() +
       mealsSectionHtml();
@@ -509,9 +613,10 @@ function render() {
       btn.addEventListener("click", () => goCategory(decodeURIComponent(btn.dataset.cat)));
     });
     document.getElementById("saved-toggle")?.addEventListener("click", () => { savedOnly = !savedOnly; render(); });
+    document.getElementById("clear-list")?.addEventListener("click", () => { listMealIds.clear(); persistList(); render(); });
     root.querySelectorAll(".meal-card").forEach(card => {
       card.addEventListener("click", (e) => {
-        if (e.target.closest("[data-heart]")) return;
+        if (e.target.closest("[data-heart]") || e.target.closest("[data-list]")) return;
         const id = card.dataset.id;
         openMealId = openMealId === id ? null : id;
         render();
@@ -523,6 +628,15 @@ function render() {
         const id = btn.dataset.heart;
         savedIds.has(id) ? savedIds.delete(id) : savedIds.add(id);
         persistSaved();
+        render();
+      });
+    });
+    root.querySelectorAll("[data-list]").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const id = btn.dataset.list;
+        listMealIds.has(id) ? listMealIds.delete(id) : listMealIds.add(id);
+        persistList();
         render();
       });
     });
