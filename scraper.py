@@ -44,20 +44,55 @@ CATEGORY_KEYWORDS = {
         "banan", "æble", "tomat", "agurk", "kartof", "løg", "frugt",
         "grønt", "salat", "peber", "gulerod", "citron", "avocado",
     ],
+    "Drikkevarer": [
+        "sodavand", "øl", "juice", "saft", "vand", "cola", "most", "vin",
+        "cider", "energidrik", "kaffe", "te ", "drik",
+    ],
+    "Slik & chokolade": [
+        "slik", "chokolade", "bolsje", "tyggegummi", "lakrids", "vingummi",
+        "kiks", "småkage", "is ", "dessert",
+    ],
+    "Rengøring & hygiejne": [
+        "rengøring", "vaskemiddel", "opvask", "toiletpapir", "shampoo",
+        "sæbe", "tandpasta", "hygiejne", "affaldspose", "køkkenrulle",
+        "ble", "servietter", "rens",
+    ],
 }
 
 WORD_TRANSLATIONS = {
     "hakket": "ground", "oksekød": "beef", "svinekød": "pork",
-    "kyllingefileter": "chicken fillets", "kylling": "chicken",
-    "laksefileter": "salmon fillets", "laks": "salmon",
-    "rejer": "shrimp", "frosne": "frozen", "frisk": "fresh",
-    "bananer": "bananas", "æbler": "apples", "tomater": "tomatoes",
-    "agurk": "cucumber", "kartofler": "potatoes", "løg": "onions",
-    "æg": "eggs", "mælk": "milk", "sødmælk": "whole milk",
-    "ost": "cheese", "flødeost": "cream cheese", "smør": "butter",
-    "yoghurt": "yoghurt", "rugbrød": "rye bread", "toastbrød": "sandwich bread",
-    "brød": "bread", "pasta": "pasta", "ris": "rice", "naturel": "plain",
-    "øko": "organic", "økologisk": "organic", "stk": "pcs", "net": "net bag",
+    "kyllingefileter": "chicken fillets", "kylling": "chicken", "kyllingebryst": "chicken breast",
+    "laksefileter": "salmon fillets", "laks": "salmon", "torsk": "cod", "fisk": "fish",
+    "rejer": "shrimp", "frosne": "frozen", "frisk": "fresh", "friske": "fresh",
+    "bacon": "bacon", "pølser": "sausages", "pølse": "sausage", "skinke": "ham",
+    "frikadeller": "meatballs", "farsbrød": "meatloaf",
+    "bananer": "bananas", "banan": "banana", "æbler": "apples", "æble": "apple",
+    "tomater": "tomatoes", "tomat": "tomato", "agurk": "cucumber", "agurker": "cucumbers",
+    "kartofler": "potatoes", "kartoffel": "potato", "løg": "onions", "gulerødder": "carrots",
+    "gulerod": "carrot", "salat": "lettuce", "peberfrugt": "bell pepper", "avocado": "avocado",
+    "citron": "lemon", "citroner": "lemons", "appelsin": "orange", "appelsiner": "oranges",
+    "druer": "grapes", "jordbær": "strawberries", "champignon": "mushrooms", "champignoner": "mushrooms",
+    "æg": "eggs", "mælk": "milk", "sødmælk": "whole milk", "minimælk": "low-fat milk",
+    "ost": "cheese", "flødeost": "cream cheese", "smør": "butter", "smørbar": "spreadable butter",
+    "yoghurt": "yoghurt", "skyr": "skyr", "kvark": "quark", "fløde": "cream", "piskefløde": "whipping cream",
+    "rugbrød": "rye bread", "toastbrød": "sandwich bread", "brød": "bread", "boller": "buns",
+    "franskbrød": "white bread", "pasta": "pasta", "ris": "rice", "mel": "flour", "sukker": "sugar",
+    "naturel": "plain", "øko": "organic", "økologisk": "organic", "stk": "pcs", "net": "net bag",
+    "sodavand": "soda", "øl": "beer", "juice": "juice", "saft": "squash", "vand": "water",
+    "danskvand": "sparkling water", "cola": "cola", "most": "juice", "vin": "wine", "cider": "cider",
+    "energidrik": "energy drink", "kaffe": "coffee", "te": "tea",
+    "slik": "candy", "chokolade": "chocolate", "bolsjer": "boiled sweets", "tyggegummi": "chewing gum",
+    "lakrids": "liquorice", "vingummi": "gummy sweets", "kiks": "biscuits", "småkager": "cookies",
+    "is": "ice cream",
+    "rengøringsmiddel": "cleaning product", "vaskemiddel": "laundry detergent", "opvaskemiddel": "dish soap",
+    "toiletpapir": "toilet paper", "shampoo": "shampoo", "sæbe": "soap", "tandpasta": "toothpaste",
+    "affaldsposer": "trash bags", "køkkenrulle": "paper towels", "bleer": "diapers", "servietter": "napkins",
+    "rens": "cleaner", "skyllemiddel": "fabric softener",
+    "eller": "or", "og": "and", "med": "with", "uden": "without", "ca": "approx.",
+    "stor": "large", "store": "large", "lille": "small", "små": "small",
+    "blandet": "mixed", "blandede": "mixed", "udvalgte": "selected", "diverse": "assorted",
+    "hel": "whole", "halv": "half", "let": "light", "fed": "full-fat", "mager": "lean",
+    "danske": "danish", "dansk": "danish", "importeret": "imported",
 }
 
 
@@ -128,15 +163,20 @@ def fetch_offers(dealer_id: str) -> list[dict]:
     return resp.json()
 
 
-def unit_label(raw: dict) -> str:
+def raw_qty(raw: dict) -> dict:
     qty = raw.get("quantity") or {}
     size = (qty.get("size") or {}).get("from")
     unit = (qty.get("unit") or {}).get("symbol")
     pieces = (qty.get("pieces") or {}).get("from")
-    if size and unit:
-        return f"{size:g} {unit}"
-    if pieces:
-        return f"{pieces:g} pcs"
+    return {"size": size, "unit": unit, "pieces": pieces}
+
+
+def unit_label(raw: dict) -> str:
+    q = raw_qty(raw)
+    if q["size"] and q["unit"]:
+        return f"{q['size']:g} {q['unit']}"
+    if q["pieces"]:
+        return f"{q['pieces']:g} pcs"
     return ""
 
 
@@ -163,7 +203,7 @@ def build_deals() -> tuple[list[dict], dict]:
         for raw in offers:
             pricing = raw.get("pricing") or {}
             price = pricing.get("price")
-            was = pricing.get("pre_price")  # often missing — not every offer shows a "before" price
+            was = pricing.get("pre_price")
             heading = raw.get("heading")
 
             if not heading or price is None:
@@ -179,6 +219,8 @@ def build_deals() -> tuple[list[dict], dict]:
                     "name": heading,
                     "nameEn": translate_best_effort(heading),
                     "unit": unit_label(raw),
+                    "qty": raw_qty(raw),
+                    "validUntil": raw.get("run_till"),
                     "price": round(float(price), 2),
                     "was": round(float(was), 2) if was is not None else None,
                     "image": (raw.get("images") or {}).get("view"),
