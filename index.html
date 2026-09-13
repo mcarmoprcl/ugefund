@@ -174,7 +174,7 @@ function storeMark(id, size) {
   }
   return `<span class="dot" style="background:${s ? s.color : "#999"}"></span>`;
 }
-const discountPct = d => Math.round((1 - d.price / d.was) * 100);
+const discountPct = d => d.was ? Math.round((1 - d.price / d.was) * 100) : null;
 const dealMatches = (deal, ingDa) => norm(deal.name).includes(norm(ingDa)) || norm(ingDa).includes(norm(deal.name));
 
 function persistSaved() {
@@ -218,24 +218,29 @@ function filteredDeals() {
   return DEALS.filter(d =>
     activeStores.has(d.store) &&
     (norm(d.name).includes(norm(query)) || norm(d.nameEn).includes(norm(query)))
-  ).sort((a, b) => discountPct(b) - discountPct(a));
+  ).sort((a, b) => (discountPct(b) ?? -1) - (discountPct(a) ?? -1));
 }
 
 function renderHero() {
   const hero = document.getElementById("hero");
   if (DEALS.length === 0) { hero.style.display = "none"; return; }
   hero.style.display = "flex";
-  const best = [...DEALS].sort((a, b) => discountPct(b) - discountPct(a))[0];
+  const best = [...DEALS].filter(d => discountPct(d) !== null).sort((a, b) => discountPct(b) - discountPct(a))[0]
+    || DEALS[0];
+  if (!best) { hero.style.display = "none"; return; }
   const s = storeInfo(best.store);
+  const bestPct = discountPct(best);
   const heroThumb = best.image
     ? `<img src="${best.image}" alt="" style="width:44px; height:44px; border-radius:8px; object-fit:cover; flex-shrink:0; border:1px solid var(--line);" />`
     : `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="${'#5B7A5E'}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M12 3v3m0 12v3m9-9h-3M6 12H3m14.5-6.5-2 2m-9 9-2 2m13-2-2-2m-9-9-2-2"/></svg>`;
   hero.innerHTML = `
     ${heroThumb}
-    <div>Biggest saving this week: <strong>${best.nameEn || best.name}</strong>
+    <div>${bestPct !== null ? "Biggest saving" : "Featured deal"} this week: <strong>${best.nameEn || best.name}</strong>
     ${best.nameEn && best.nameEn !== best.name ? `<span class="faint">(${best.name})</span>` : ""}
     (${best.unit || ""}) at <strong style="color:${s ? s.color : "inherit"}">${s ? s.name : best.store}</strong> —
-    ${best.price.toFixed(2)} kr instead of ${best.was.toFixed(2)} kr, ${discountPct(best)}% off.</div>`;
+    ${bestPct !== null
+      ? `${best.price.toFixed(2)} kr instead of ${best.was.toFixed(2)} kr, ${bestPct}% off.`
+      : `${best.price.toFixed(2)} kr this week.`}</div>`;
 }
 
 function renderDeals() {
@@ -267,9 +272,11 @@ function renderDeals() {
             </div>
           </div>
           <div class="row" style="flex-shrink:0;">
-            <span class="price-was">${d.was.toFixed(2)} kr</span>
+            ${d.was ? `<span class="price-was">${d.was.toFixed(2)} kr</span>` : ""}
             <span class="price-now">${d.price.toFixed(2)} kr</span>
-            <span class="pct">-${discountPct(d)}%</span>
+            ${discountPct(d) !== null
+              ? `<span class="pct">-${discountPct(d)}%</span>`
+              : `<span class="pct" style="background:var(--accent-soft); color:var(--accent);">Offer</span>`}
           </div>
         </div>`;
     }).join("");
