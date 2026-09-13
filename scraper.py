@@ -87,13 +87,27 @@ def log(message: str) -> None:
 
 
 def fetch_dealers() -> list[dict]:
-    resp = requests.get(f"{BASE_URL}/dealers", params={"country_id": "DK", "limit": 100}, timeout=20)
-    resp.raise_for_status()
-    return resp.json()
+    """Fetch all dealers for DK, paging through results (the API caps each
+    page at 100, and there are far more than 100 Danish retailers)."""
+    dealers = []
+    offset = 0
+    page_size = 100
+    while True:
+        resp = requests.get(
+            f"{BASE_URL}/dealers",
+            params={"country_id": "DK", "limit": page_size, "offset": offset},
+            timeout=20,
+        )
+        resp.raise_for_status()
+        batch = resp.json()
+        dealers.extend(batch)
+        if len(batch) < page_size or offset > 3000:
+            break
+        offset += page_size
+    return dealers
 
 
 def match_dealer_ids(dealers: list[dict]) -> tuple[dict, dict]:
-    """Return ({our_store_id: dealer_id}, {our_store_id: logo_url})."""
     matched = {}
     logos = {}
     for dealer in dealers:
@@ -174,6 +188,12 @@ def build_deals() -> tuple[list[dict], dict]:
             kept += 1
 
         log(f"{our_store_id}: fetched {len(offers)} raw offers, kept {kept} with a valid discount.")
+        if offers and kept == 0:
+            sample = [
+                {"heading": o.get("heading"), "pricing": o.get("pricing"), "quantity": o.get("quantity")}
+                for o in offers[:2]
+            ]
+            log(f"{our_store_id}: sample raw offer(s) for debugging: {json.dumps(sample, ensure_ascii=False)}")
 
     return deals, store_logos
 
