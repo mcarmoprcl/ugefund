@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14 08:03 UTC",
+  "lastUpdated": "2026-09-14 12:13 UTC",
   "storeLogos": {
     "365": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FDWZE1w%2F_LRneGSszytxRwHkQRjyg&w=300&s=6cd4a1208e0bd7da9265f597f3ad04a1",
     "foetex": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FaUchSAqn9T_7L7QJVRRP0&w=300&s=b8d9a7b82e29592785d9feb927a9e00f",
@@ -30,112 +30,10 @@
       "validUntil": "2026-09-16T21:59:59+0000",
       "price": 75.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-12.webp&w=600&x1r=0.03&x2r=0.98&y1r=0.02&y2r=0.35&s=a172757cb97e9f79f74c048c49a0b000"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-12.webp&w=600&x1r=0.03&x2r=0.98&y1r=0.012&y2r=0.35&s=3584ffa6fb151da5daecc8bc2b0c4e21"
     },
     {
       "id": 2,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Cocio*",
-      "nameEn": "Cocio*",
-      "unit": "60 cl",
-      "qty": {
-        "size": 60,
-        "unit": "cl",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 12.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-25.webp&w=600&x1r=0.03&x2r=0.9&y1r=0.02&y2r=0.33&s=d42299e4e7428cc85aa01225ea1f7f66"
-    },
-    {
-      "id": 3,
-      "store": "365",
-      "category": "Mejeri",
-      "name": "Stay Strong skyr*",
-      "nameEn": "Stay Strong skyr",
-      "unit": "500 g",
-      "qty": {
-        "size": 500,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 12.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc186ac54b53a0a95d4db766b14c5b42f&w=600&s=16491a060ab4051fa37239d6d423f8fd"
-    },
-    {
-      "id": 4,
-      "store": "365",
-      "category": "Rengøring & hygiejne",
-      "name": "Coop Premium soft toiletpapir eller Luxury strong køkkenrulle",
-      "nameEn": "Coop Premium soft toilet paper or Luxury strong paper towels",
-      "unit": "594 g",
-      "qty": {
-        "size": 594,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 19.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa31c8ac9638f87fe0f8c3437ff067ab7&w=600&s=8a24b88bf3f9e60168f78720cb3530c0"
-    },
-    {
-      "id": 5,
-      "store": "365",
-      "category": "Slik & chokolade",
-      "name": "Beauvais ketchup*",
-      "nameEn": "Beauvais ketchup*",
-      "unit": "480 g",
-      "qty": {
-        "size": 480,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 25.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F851648eb636e2f37b85200337aacd61e&w=600&s=03a7391c9e5d5d4f1cbfd6b5921c39fa"
-    },
-    {
-      "id": 6,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Yankie eller Holly barer*",
-      "nameEn": "Yankie or Holly barer*",
-      "unit": "40 g",
-      "qty": {
-        "size": 40,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 6.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-21.webp&w=600&x1r=0.02&x2r=0.98&y1r=0.05&y2r=0.335&s=76f4511e7d09605ed3f0c59f95bcc823"
-    },
-    {
-      "id": 7,
-      "store": "365",
-      "category": "Frugt & grønt",
-      "name": "Coop grøntsager eller kartofler",
-      "nameEn": "Coop grøntsager or potatoes",
-      "unit": "400 g",
-      "qty": {
-        "size": 400,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-1.webp&w=600&x1r=0.48&x2r=0.99&y1r=0.424&y2r=0.69&s=97656a830a279e1fde98e38edfaabe7c"
-    },
-    {
-      "id": 8,
       "store": "365",
       "category": "Kolonial",
       "name": "Faxe Kondi eller Pepsi Max",
@@ -152,7 +50,126 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe1fb726e3b47bd01cd0a31b0481878cd%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F27a013a8910c7015eea9bde0d73e7e92%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdb1d9f0e1c6f86f89f728ab2311905ba%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F80fa7bbf346acf2f8fa21b50130660ae&w=600&s=0c3d4dd18eee2a6a8117b51892a4f203"
     },
     {
+      "id": 3,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Cocio*",
+      "nameEn": "Cocio*",
+      "unit": "60 cl",
+      "qty": {
+        "size": 60,
+        "unit": "cl",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 12.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-25.webp&w=600&x1r=0.03&x2r=0.9&y1r=0.02&y2r=0.33&s=d42299e4e7428cc85aa01225ea1f7f66"
+    },
+    {
+      "id": 4,
+      "store": "365",
+      "category": "Mejeri",
+      "name": "Stay Strong skyr*",
+      "nameEn": "Stay Strong skyr",
+      "unit": "500 g",
+      "qty": {
+        "size": 500,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 12.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-10.webp&w=600&x1r=0.01&x2r=0.99&y1r=0.01&y2r=0.33&s=fcbf37d0bac72c02645873d86afd56db"
+    },
+    {
+      "id": 5,
+      "store": "365",
+      "category": "Rengøring & hygiejne",
+      "name": "Coop Premium soft toiletpapir eller Luxury strong køkkenrulle",
+      "nameEn": "Coop Premium soft toilet paper or Luxury strong paper towels",
+      "unit": "594 g",
+      "qty": {
+        "size": 594,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 19.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa31c8ac9638f87fe0f8c3437ff067ab7&w=600&s=8a24b88bf3f9e60168f78720cb3530c0"
+    },
+    {
+      "id": 6,
+      "store": "365",
+      "category": "Slik & chokolade",
+      "name": "Beauvais ketchup*",
+      "nameEn": "Beauvais ketchup*",
+      "unit": "480 g",
+      "qty": {
+        "size": 480,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 25.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F851648eb636e2f37b85200337aacd61e&w=600&s=03a7391c9e5d5d4f1cbfd6b5921c39fa"
+    },
+    {
+      "id": 7,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Yankie eller Holly barer*",
+      "nameEn": "Yankie or Holly barer*",
+      "unit": "40 g",
+      "qty": {
+        "size": 40,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 6.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-21.webp&w=600&x1r=0.02&x2r=0.98&y1r=0.05&y2r=0.335&s=76f4511e7d09605ed3f0c59f95bcc823"
+    },
+    {
+      "id": 8,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Dansk spidskål",
+      "nameEn": "danish spidskål",
+      "unit": "1 pcs",
+      "qty": {
+        "size": 1,
+        "unit": "pcs",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-4.webp&w=600&x1r=0.03&x2r=0.49&y1r=0.34&y2r=0.67&s=2ce84b088f5bc265b6619de2619d483e"
+    },
+    {
       "id": 9,
+      "store": "365",
+      "category": "Frugt & grønt",
+      "name": "Coop grøntsager eller kartofler",
+      "nameEn": "Coop grøntsager or potatoes",
+      "unit": "400 g",
+      "qty": {
+        "size": 400,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-1.webp&w=600&x1r=0.48&x2r=0.99&y1r=0.424&y2r=0.69&s=97656a830a279e1fde98e38edfaabe7c"
+    },
+    {
+      "id": 10,
       "store": "365",
       "category": "Mejeri",
       "name": "Thise økologisk piskefløde",
@@ -169,24 +186,58 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-8.webp&w=600&x1r=0.518&x2r=0.973&y1r=0.358&y2r=0.658&s=00d4ad84905ef03e684295d65a5d4811"
     },
     {
-      "id": 10,
+      "id": 11,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Graasten remoulade eller mayonnaise*",
+      "nameEn": "Graasten remoulade or mayonnaise*",
+      "unit": "375 g",
+      "qty": {
+        "size": 375,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 16.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-15.webp&w=600&x1r=0.48&x2r=1&y1r=0.31&y2r=0.68&s=2caeaf1613eb3b4ca4ac65ed271d946d"
+    },
+    {
+      "id": 12,
       "store": "365",
       "category": "Rengøring & hygiejne",
-      "name": "Ajax rengøringsmiddel eller wipes",
-      "nameEn": "Ajax cleaning product or wipes",
+      "name": "Ajax rengøringsmiddel eller wipes*",
+      "nameEn": "Ajax cleaning product or wipes*",
       "unit": "1 pcs",
       "qty": {
         "size": 1,
         "unit": "pcs",
+        "pieces": 40
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 20.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F70b2510628429befc7635be68433f884&w=600&s=1990e02ebcd8ec2dd13d7052cdd8de9b"
+    },
+    {
+      "id": 13,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Coop italiana eller Deep pan pizza",
+      "nameEn": "Coop italiana or Deep pan pizza",
+      "unit": "300 g",
+      "qty": {
+        "size": 300,
+        "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-16T21:59:59+0000",
       "price": 20.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-26.webp&w=600&x1r=0.021&x2r=0.98&y1r=0.022&y2r=0.33&s=8368c1b2e6a39a972481c9a6bba97b12"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3132b62defaab26c148098ea91b9c51d&w=600&s=a6c4f3a9aaa25992ab8c67551ac57432"
     },
     {
-      "id": 11,
+      "id": 14,
       "store": "365",
       "category": "Kød & fisk",
       "name": "Coop pølsehorn",
@@ -203,7 +254,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-28.webp&w=600&x1r=0.311&x2r=0.673&y1r=0.197&y2r=0.562&s=f2815c6d09ae8407275f9f1d1d595ccc"
     },
     {
-      "id": 12,
+      "id": 15,
       "store": "365",
       "category": "Mejeri",
       "name": "Castello hård ost*",
@@ -217,10 +268,10 @@
       "validUntil": "2026-09-16T21:59:59+0000",
       "price": 32.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-8.webp&w=600&x1r=0.015&x2r=0.985&y1r=0.678&y2r=0.965&s=505e3b99b28b30e5db4fc0e695f29aee"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F14ee28d11cd0ddd16bdb88ce04a735b3&w=600&s=15def483a770ae37bd8c695774dd3ce4"
     },
     {
-      "id": 13,
+      "id": 16,
       "store": "365",
       "category": "Drikkevarer",
       "name": "Tuborg eller Carlsberg øl*",
@@ -237,7 +288,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-1.webp&w=600&x1r=0.46&x2r=0.99&y1r=0.13&y2r=0.44&s=ede75a66d964061d20e6ab42353567d2"
     },
     {
-      "id": 14,
+      "id": 17,
       "store": "365",
       "category": "Drikkevarer",
       "name": "Coca-Cola, Fanta eller Tuborg Squash*",
@@ -254,7 +305,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6b74f51f04eefad0c284a21c5792f7e1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcff639151d11c887c51fc9daee24fe2a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe436f2b625db022d891a078771c8366d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fded42c7e521530f368648523d35fed34%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd8d0ed20fcf94a1440fe7a30afd1f3be&w=600&s=0431e39fcabd2ca798ea3c8af0bc2543"
     },
     {
-      "id": 15,
+      "id": 18,
       "store": "365",
       "category": "Kolonial",
       "name": "Tullamore Dew Whiskey, Gammel Dansk Bitter, Jägermeister, Aperol eller Bombay Sapphire Gin*\n",
@@ -271,7 +322,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F97f85b90a87642179bf54d5a26fae207&w=600&s=30f753c151c4a57e61a2bfb9e0c987b8"
     },
     {
-      "id": 16,
+      "id": 19,
       "store": "365",
       "category": "Drikkevarer",
       "name": "Harboe sodavand",
@@ -288,7 +339,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-23.webp&w=600&x1r=0.035&x2r=0.495&y1r=0.65&y2r=0.975&s=4e64702f845887224c0dc2890bd81638"
     },
     {
-      "id": 17,
+      "id": 20,
       "store": "365",
       "category": "Kolonial",
       "name": "Knoppers eller Mini Muh*",
@@ -305,24 +356,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-6.webp&w=600&x1r=0.49&x2r=1&y1r=0&y2r=0.33&s=d6b7dea0fca3b454419591749205bcf3"
     },
     {
-      "id": 18,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Panda Expressen kopnudler*",
-      "nameEn": "Panda Expressen kopnudler*",
-      "unit": "65 g",
-      "qty": {
-        "size": 65,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 5.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-19.webp&w=600&x1r=0.037&x2r=0.485&y1r=0.35&y2r=0.66&s=8df1c6085362a5c611e01e4c8ac34275"
-    },
-    {
-      "id": 19,
+      "id": 21,
       "store": "365",
       "category": "Mejeri",
       "name": "Coop iskaffe, Danonino Go, Milka eller Oreo mælkesnitte",
@@ -339,7 +373,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-7.webp&w=600&x1r=0.02&x2r=0.98&y1r=0.02&y2r=0.33&s=df39df7ce0b9ebd45340963f69d89137"
     },
     {
-      "id": 20,
+      "id": 22,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Panda Expressen kopnudler*",
+      "nameEn": "Panda Expressen kopnudler*",
+      "unit": "65 g",
+      "qty": {
+        "size": 65,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 5.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd68332198b27001a61f78ed30671e6f7%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F633d7d289850851bce21cfade13cfd53&w=600&s=0788b6aa3ca8b71df9893f1f54d53ee3"
+    },
+    {
+      "id": 23,
       "store": "365",
       "category": "Mejeri",
       "name": "Dr. Oetker dessert eller Mix yoghurt*",
@@ -356,7 +407,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0524ce2370c0c5ff8cfd20a80f26330b&w=600&s=6164d397d86e82b235fb3675a3172ee7"
     },
     {
-      "id": 21,
+      "id": 24,
       "store": "365",
       "category": "Kolonial",
       "name": "Coop Ice Tea",
@@ -373,7 +424,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-25.webp&w=600&x1r=0.35&x2r=0.65&y1r=0.33&y2r=0.66&s=f9b184be4292e018bf454754ddac68ec"
     },
     {
-      "id": 22,
+      "id": 25,
       "store": "365",
       "category": "Mejeri",
       "name": "Coop iskaffe, Danonino Go, Milka eller Oreo mælkesnack*",
@@ -390,7 +441,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb2e20c63db7adb4721e9e0f2e9e43051&w=600&s=3b17dff5891ccff78e3b0f600373d69f"
     },
     {
-      "id": 23,
+      "id": 26,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Coop proteinpudding*",
+      "nameEn": "Coop proteinpudding*",
+      "unit": "200 g",
+      "qty": {
+        "size": 200,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 7.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-10.webp&w=600&x1r=0.018&x2r=0.524&y1r=0.66&y2r=0.966&s=d6fe89fe50d14071d377a3caadff5ef2"
+    },
+    {
+      "id": 27,
       "store": "365",
       "category": "Drikkevarer",
       "name": "Blue Keld eller Xtra! saft*",
@@ -407,58 +475,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-25.webp&w=600&x1r=0.66&x2r=0.97&y1r=0.33&y2r=0.66&s=315c285089e292c05190293e06f0c6a9"
     },
     {
-      "id": 24,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Coop proteinpudding*",
-      "nameEn": "Coop proteinpudding*",
-      "unit": "200 g",
-      "qty": {
-        "size": 200,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 7.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-10.webp&w=600&x1r=0.01&x2r=0.5&y1r=0.66&y2r=0.99&s=179d032825c4a28c2764e36270e52663"
-    },
-    {
-      "id": 25,
-      "store": "365",
-      "category": "Frugt & grønt",
-      "name": "Mutti hakkede tomater*",
-      "nameEn": "Mutti hakkede tomatoes",
-      "unit": "400 g",
-      "qty": {
-        "size": 400,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 8.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2c02f85f34faf9e2f0a7360308a7fccd&w=600&s=6a510a3638b982633ae9b4891e638309"
-    },
-    {
-      "id": 26,
-      "store": "365",
-      "category": "Frugt & grønt",
-      "name": "Mutti tomatkonserves*",
-      "nameEn": "Mutti tomatkonserves*",
-      "unit": "210 g",
-      "qty": {
-        "size": 210,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 8.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-2.webp&w=600&x1r=0.03&x2r=0.51&y1r=0.66&y2r=0.94&s=02c05268c141106f83ee67994e043125"
-    },
-    {
-      "id": 27,
+      "id": 28,
       "store": "365",
       "category": "Kolonial",
       "name": "Coop tortilla",
@@ -475,7 +492,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2258f7c5e5d890d110bffd7503530828&w=600&s=0c1a0f24763e296824c7702bd077d564"
     },
     {
-      "id": 28,
+      "id": 29,
       "store": "365",
       "category": "Drikkevarer",
       "name": "Nailed eller State Energy*",
@@ -492,7 +509,41 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd3b6077c811a71fac54102e5a7be35bd%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F49f6b282b182535dff14915ab245c02a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0d92163e8a39c4e2849d8ac1e5600142%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F69538f1a1f11b737aaf7754039001bd6&w=600&s=fffd194a66a37df3b3f2186ac3bbad32"
     },
     {
-      "id": 29,
+      "id": 30,
+      "store": "365",
+      "category": "Frugt & grønt",
+      "name": "Mutti hakkede tomater*",
+      "nameEn": "Mutti hakkede tomatoes",
+      "unit": "400 g",
+      "qty": {
+        "size": 400,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 8.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2c02f85f34faf9e2f0a7360308a7fccd&w=600&s=6a510a3638b982633ae9b4891e638309"
+    },
+    {
+      "id": 31,
+      "store": "365",
+      "category": "Frugt & grønt",
+      "name": "Mutti tomatkonserves*",
+      "nameEn": "Mutti tomatkonserves*",
+      "unit": "210 g",
+      "qty": {
+        "size": 210,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 8.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-2.webp&w=600&x1r=0.03&x2r=0.51&y1r=0.66&y2r=0.94&s=02c05268c141106f83ee67994e043125"
+    },
+    {
+      "id": 32,
       "store": "365",
       "category": "Frugt & grønt",
       "name": "Dansk agurk fra Østervang",
@@ -506,10 +557,27 @@
       "validUntil": "2026-09-16T21:59:59+0000",
       "price": 9.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F028a47385d516abd1c6e344b8adab966&w=600&s=43128eea367f44a0a4d53f40a374683b"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-28.webp&w=600&x1r=0.701&x2r=0.98&y1r=0.373&y2r=0.965&s=612427ca1cefe661703897c29b9b68e4"
     },
     {
-      "id": 30,
+      "id": 33,
+      "store": "365",
+      "category": "Frugt & grønt",
+      "name": "Dansk icebergsalat fra Månsson",
+      "nameEn": "danish icebergsalat fra Månsson",
+      "unit": "1 pcs",
+      "qty": {
+        "size": 1,
+        "unit": "pcs",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 9.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F10dc0906e3b62393b5fddb5a077f3e97&w=600&s=8feefd5ec94d75ea9c71d798f94b29bd"
+    },
+    {
+      "id": 34,
       "store": "365",
       "category": "Drikkevarer",
       "name": "Arla proteindrik*",
@@ -526,143 +594,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3f8ec908adde95c3a5d5ec7f9880c55d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc6a56b06b91ed394a40154afd5275c01%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe4b2115c1ab899535d19a0b1ff1d2fc2%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbe6b22f3996e405d0a4119cffa2ef7cc&w=600&s=bb8cb997b1887dd46185d11fd76657cd"
     },
     {
-      "id": 31,
-      "store": "365",
-      "category": "Frugt & grønt",
-      "name": "Dansk icebergsalat fra Månsson",
-      "nameEn": "danish icebergsalat fra Månsson",
-      "unit": "1 pcs",
-      "qty": {
-        "size": 1,
-        "unit": "pcs",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 9.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-13.webp&w=600&x1r=0.5&x2r=0.98&y1r=0.05&y2r=0.35&s=638d8cff56c435549c721021c58f3b31"
-    },
-    {
-      "id": 32,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Nutramino wafer eller Coop proteinbar*",
-      "nameEn": "Nutramino wafer or Coop proteinbar*",
-      "unit": "39 g",
-      "qty": {
-        "size": 39,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-10.webp&w=600&x1r=0.49&x2r=0.99&y1r=0.66&y2r=0.99&s=2892d1358dd1d86b0acd2a61bd145584"
-    },
-    {
-      "id": 33,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "1664, Breezer, Smirnoff eller Somersby",
-      "nameEn": "1664, Breezer, Smirnoff or Somersby",
-      "unit": "27.5 cl",
-      "qty": {
-        "size": 27.5,
-        "unit": "cl",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-23.webp&w=600&x1r=0.035&x2r=0.965&y1r=0.02&y2r=0.33&s=d127033ccb40767eb454b01923ab91a6"
-    },
-    {
-      "id": 34,
-      "store": "365",
-      "category": "Mejeri",
-      "name": "Italiensk pålæg",
-      "nameEn": "Italiensk pålæg",
-      "unit": "50 g",
-      "qty": {
-        "size": 50,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-3.webp&w=600&x1r=0&x2r=0.51&y1r=0.337&y2r=0.668&s=5279c39045eb565bb76b34075e726efa"
-    },
-    {
       "id": 35,
-      "store": "365",
-      "category": "Frugt & grønt",
-      "name": "Frugtdrik, Tørst eller Valsølille Vitamin*",
-      "nameEn": "Frugtdrik, Tørst or Valsølille Vitamin*",
-      "unit": "50 cl",
-      "qty": {
-        "size": 50,
-        "unit": "cl",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-25.webp&w=600&x1r=0.03&x2r=0.49&y1r=0.66&y2r=0.97&s=a519c8c67c4f87aa8b631d3a5f66f2f3"
-    },
-    {
-      "id": 36,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Pringles chips*",
-      "nameEn": "Pringles chips*",
-      "unit": "125 g",
-      "qty": {
-        "size": 125,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ffacada9b84adbaf63db5308192c4725a&w=600&s=43cd6699cb78f958515d9e5d89ec1877"
-    },
-    {
-      "id": 37,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Dansk spidskål",
-      "nameEn": "danish spidskål",
-      "unit": "1 pcs",
-      "qty": {
-        "size": 1,
-        "unit": "pcs",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8a0ffc1ac09f973dc0c8b745609d993c&w=600&s=380f3e7ed4cb2f4dcd5750f19be6a95d"
-    },
-    {
-      "id": 38,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Oreo*",
-      "nameEn": "Oreo*",
-      "unit": "154 g",
-      "qty": {
-        "size": 154,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-22.webp&w=600&x1r=0.01&x2r=0.99&y1r=0.002&y2r=0.232&s=471ba564340a6f1521c3c01ed2e43f1e"
-    },
-    {
-      "id": 39,
       "store": "365",
       "category": "Kød & fisk",
       "name": "Amanda, Bornholms eller Glyngøre fiskemarked*",
@@ -679,7 +611,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-1.webp&w=600&x1r=0.02&x2r=0.51&y1r=0.416&y2r=0.69&s=eec94429ed3ac3100654e335d8de5384"
     },
     {
-      "id": 40,
+      "id": 36,
+      "store": "365",
+      "category": "Mejeri",
+      "name": "3-Stjernet pålæg*",
+      "nameEn": "3-Stjernet pålæg*",
+      "unit": "70 g",
+      "qty": {
+        "size": 70,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-2.webp&w=600&x1r=0.03&x2r=0.51&y1r=0.08&y2r=0.38&s=d902223c446ee24570c7160062de2717"
+    },
+    {
+      "id": 37,
       "store": "365",
       "category": "Mejeri",
       "name": "Thise økologisk skyr, aktiv drikkeyoghurt eller proteindrik*",
@@ -696,75 +645,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8152a249a2809c6b3c9fdd84fe297bdd&w=600&s=c426c3540bacee0ce03e3832299766f5"
     },
     {
-      "id": 41,
+      "id": 38,
       "store": "365",
       "category": "Kolonial",
-      "name": "Leksands Knækbrød*",
-      "nameEn": "Leksands Knækbrød*",
-      "unit": "200 g",
+      "name": "1664, Breezer, Smirnoff eller Somersby",
+      "nameEn": "1664, Breezer, Smirnoff or Somersby",
+      "unit": "27.5 cl",
       "qty": {
-        "size": 200,
-        "unit": "g",
+        "size": 27.5,
+        "unit": "cl",
         "pieces": 1
       },
       "validUntil": "2026-09-16T21:59:59+0000",
       "price": 10.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-15.webp&w=600&x1r=0&x2r=0.52&y1r=0.31&y2r=0.68&s=ba1c7c873b769d59e9831a885d978bb8"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F121d2471d5150bb280c8656cb0a23b05%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1f1d3ca126226867199e3b050c466e04%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4f3c83c99f3cd3d4faab4b0b9c8a4e68%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb628c1fd844cbf68d0a071fe73ea6b66&w=600&s=9edab73e3612d361dc66289325272e3d"
     },
     {
-      "id": 42,
-      "store": "365",
-      "category": "Kolonial",
-      "name": "Philadelphia",
-      "nameEn": "Philadelphia",
-      "unit": "200 g",
-      "qty": {
-        "size": 200,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F09216937afc0c351170ef0aa36e7d0ed&w=600&s=a2fb9b25338279b400545f9d0fadf33d"
-    },
-    {
-      "id": 43,
-      "store": "365",
-      "category": "Mejeri",
-      "name": "3-Stjernet pålæg*",
-      "nameEn": "3-Stjernet pålæg*",
-      "unit": "70 g",
-      "qty": {
-        "size": 70,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd15f887a0b722fdacbcc979114684912&w=600&s=3ce280db0fbd7fae25fae6e90152a5b7"
-    },
-    {
-      "id": 44,
-      "store": "365",
-      "category": "Slik & chokolade",
-      "name": "Majskiks med smag*",
-      "nameEn": "Majskiks with smag*",
-      "unit": "125 g",
-      "qty": {
-        "size": 125,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-28.webp&w=600&x1r=0.593&x2r=0.973&y1r=0.217&y2r=0.553&s=5e17d202be39809b5d3586821f11a179"
-    },
-    {
-      "id": 45,
+      "id": 39,
       "store": "365",
       "category": "Mejeri",
       "name": "K-Salat pålægssalat",
@@ -778,10 +676,44 @@
       "validUntil": "2026-09-16T21:59:59+0000",
       "price": 10.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb89745c5c707345a0f0824b7428d25dc&w=600&s=2e42ac525753dcb11c7922b15e04464c"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-4.webp&w=600&x1r=0.03&x2r=0.98&y1r=0.02&y2r=0.33&s=1765b44cc32d57c72f1bc97f0e6f82be"
     },
     {
-      "id": 46,
+      "id": 40,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Philadelphia",
+      "nameEn": "Philadelphia",
+      "unit": "200 g",
+      "qty": {
+        "size": 200,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-4.webp&w=600&x1r=0.49&x2r=0.98&y1r=0.34&y2r=0.67&s=997daaedcc7c71754098d1a1a695dadc"
+    },
+    {
+      "id": 41,
+      "store": "365",
+      "category": "Frugt & grønt",
+      "name": "Frugtdrik, Tørst eller Valsølille Vitamin*",
+      "nameEn": "Frugtdrik, Tørst or Valsølille Vitamin*",
+      "unit": "50 cl",
+      "qty": {
+        "size": 50,
+        "unit": "cl",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd99981a18b1f88e6ec3c33eb44e5b174&w=600&s=a09257da5b4e571118c5eef4b96be1d2"
+    },
+    {
+      "id": 42,
       "store": "365",
       "category": "Frugt & grønt",
       "name": "16 æbler eller Sunjoy*",
@@ -798,7 +730,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb8efb77bb6bdef3b89d3a198b5991cfe&w=600&s=4d67c99f339ba9a1018af9f7baab2613"
     },
     {
-      "id": 47,
+      "id": 43,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Leksands Knækbrød*",
+      "nameEn": "Leksands Knækbrød*",
+      "unit": "200 g",
+      "qty": {
+        "size": 200,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F31b9cb52b9bdb120c40c0fec0c9400d4&w=600&s=c2ce8e9d7ffec2f45552a327e23cf092"
+    },
+    {
+      "id": 44,
       "store": "365",
       "category": "Kolonial",
       "name": "Danonino eller Actimel*",
@@ -815,55 +764,106 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F446db4e95f9d7144dd4c551b0605d526&w=600&s=6d6a61d7fbbf1026b21dca75bfec4432"
     },
     {
-      "id": 48,
+      "id": 45,
       "store": "365",
       "category": "Kolonial",
-      "name": "Marabou plade*",
-      "nameEn": "Marabou plade*",
-      "unit": "90 g",
+      "name": "Nutramino wafer eller Coop proteinbar*",
+      "nameEn": "Nutramino wafer or Coop proteinbar*",
+      "unit": "39 g",
       "qty": {
-        "size": 90,
+        "size": 39,
         "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 12.0,
+      "price": 10.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbc46fb102bf91b2766771770c2161d77%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbe2b5c88014605476d148729702417f0%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe5ae3927d2573f24e51a7fceede99b31%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fddcdcf6e4f0cc614a2b16ca45b1bc9f3&w=600&s=3a385f73bdf9f37f115f434a3aeffae5"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0804500b0710090818b44c663a7ec612&w=600&s=b0236c75816ac90e948394aa684e1ec6"
+    },
+    {
+      "id": 46,
+      "store": "365",
+      "category": "Mejeri",
+      "name": "Italiensk pålæg",
+      "nameEn": "Italiensk pålæg",
+      "unit": "50 g",
+      "qty": {
+        "size": 50,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-3.webp&w=600&x1r=0&x2r=0.51&y1r=0.337&y2r=0.668&s=5279c39045eb565bb76b34075e726efa"
+    },
+    {
+      "id": 47,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Pringles chips*",
+      "nameEn": "Pringles chips*",
+      "unit": "125 g",
+      "qty": {
+        "size": 125,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ffacada9b84adbaf63db5308192c4725a&w=600&s=43cd6699cb78f958515d9e5d89ec1877"
+    },
+    {
+      "id": 48,
+      "store": "365",
+      "category": "Kolonial",
+      "name": "Oreo*",
+      "nameEn": "Oreo*",
+      "unit": "154 g",
+      "qty": {
+        "size": 154,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-16T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-22.webp&w=600&x1r=0.01&x2r=0.99&y1r=0.002&y2r=0.232&s=471ba564340a6f1521c3c01ed2e43f1e"
     },
     {
       "id": 49,
       "store": "365",
       "category": "Slik & chokolade",
-      "name": "Dolce Mamma dessert",
-      "nameEn": "Dolce Mamma dessert",
-      "unit": "180 g",
+      "name": "Majskiks med smag*",
+      "nameEn": "Majskiks with smag*",
+      "unit": "125 g",
       "qty": {
-        "size": 180,
+        "size": 125,
         "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-16T21:59:59+0000",
-      "price": 12.0,
+      "price": 10.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-7.webp&w=600&x1r=0.02&x2r=0.5&y1r=0.34&y2r=0.67&s=f90bd6c3e74ad535fc2067a59a606b33"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-28.webp&w=600&x1r=0.593&x2r=0.973&y1r=0.217&y2r=0.553&s=5e17d202be39809b5d3586821f11a179"
     },
     {
       "id": 50,
       "store": "365",
-      "category": "Drikkevarer",
-      "name": "Coop skagenslapper, møllehjul, håndværkere eller Hatting kanelsnegle",
-      "nameEn": "Coop skagenslapper, møllehjul, håndværkere or Hatting kanelsnegle",
-      "unit": "340 g",
+      "category": "Frugt & grønt",
+      "name": "Økologiske snacktomater fra Katrine & Alfred",
+      "nameEn": "Økologiske snacktomater fra Katrine & Alfred",
+      "unit": "1 pcs",
       "qty": {
-        "size": 340,
-        "unit": "g",
+        "size": 1,
+        "unit": "pcs",
         "pieces": 1
       },
       "validUntil": "2026-09-16T21:59:59+0000",
       "price": 12.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbbb6478b6291df1cee14d80ce127e372&w=600&s=0172b86ea3939de843d25ac6de6344b9"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FFIAMxJ0t%2Fp-28.webp&w=600&x1r=0.028&x2r=0.427&y1r=0.528&y2r=0.965&s=78d29faad1a875f75f98ca9c897e5834"
     },
     {
       "id": 51,
@@ -988,23 +988,6 @@
       "id": 58,
       "store": "foetex",
       "category": "Kolonial",
-      "name": "Helbønnemarked",
-      "nameEn": "Helbønnemarked",
-      "unit": "900 g",
-      "qty": {
-        "size": 900,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 149.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-4.webp&w=600&x1r=0.49&x2r=1&y1r=0.52&y2r=0.98&s=c819dfccbf4a0ddbee9d63f890b9ef10"
-    },
-    {
-      "id": 59,
-      "store": "foetex",
-      "category": "Kolonial",
       "name": "Lambi papir",
       "nameEn": "Lambi papir",
       "unit": "1 pcs",
@@ -1017,6 +1000,23 @@
       "price": 18.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-1.webp&w=600&x1r=0.42&x2r=0.98&y1r=0.02&y2r=0.23&s=a868c55ac0dbd8c1e8571680e052d9c1"
+    },
+    {
+      "id": 59,
+      "store": "foetex",
+      "category": "Kolonial",
+      "name": "Helbønnemarked",
+      "nameEn": "Helbønnemarked",
+      "unit": "900 g",
+      "qty": {
+        "size": 900,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 149.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-4.webp&w=600&x1r=0.49&x2r=1&y1r=0.52&y2r=0.98&s=c819dfccbf4a0ddbee9d63f890b9ef10"
     },
     {
       "id": 60,
@@ -1090,6 +1090,23 @@
       "id": 64,
       "store": "foetex",
       "category": "Kolonial",
+      "name": "Kalveculotte",
+      "nameEn": "Kalveculotte",
+      "unit": "0.5 kg",
+      "qty": {
+        "size": 0.5,
+        "unit": "kg",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 79.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-11.webp&w=600&x1r=0.23&x2r=0.51&y1r=0.48&y2r=0.76&s=eeb55c2d9bdb3fe2fe8bc7d33039e676"
+    },
+    {
+      "id": 65,
+      "store": "foetex",
+      "category": "Kolonial",
       "name": "Tapas",
       "nameEn": "Tapas",
       "unit": "65 g",
@@ -1102,23 +1119,6 @@
       "price": 69.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-23.webp&w=600&x1r=0&x2r=1&y1r=0.51&y2r=1&s=c10d8f4f54a536939ab09afbcebe3584"
-    },
-    {
-      "id": 65,
-      "store": "foetex",
-      "category": "Slik & chokolade",
-      "name": "Toffifee, Nutella eller M&M’s slikpose",
-      "nameEn": "Toffifee, Nutella or M&M’s slikpose",
-      "unit": "192.5 g",
-      "qty": {
-        "size": 192.5,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 30.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-4.webp&w=600&x1r=0.49&x2r=1&y1r=0.14&y2r=0.53&s=183f9f04f11a401eaf5e9a8d012752e6"
     },
     {
       "id": 66,
@@ -1141,40 +1141,6 @@
       "id": 67,
       "store": "foetex",
       "category": "Kolonial",
-      "name": "Kalveculotte",
-      "nameEn": "Kalveculotte",
-      "unit": "0.5 kg",
-      "qty": {
-        "size": 0.5,
-        "unit": "kg",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 79.95,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-11.webp&w=600&x1r=0.23&x2r=0.51&y1r=0.48&y2r=0.76&s=eeb55c2d9bdb3fe2fe8bc7d33039e676"
-    },
-    {
-      "id": 68,
-      "store": "foetex",
-      "category": "Drikkevarer",
-      "name": "Drikkevaremarked",
-      "nameEn": "Drikkevaremarked",
-      "unit": "27.5 cl",
-      "qty": {
-        "size": 27.5,
-        "unit": "cl",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 12.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-5.webp&w=600&x1r=0.02&x2r=0.47&y1r=0.11&y2r=0.52&s=7a465e1da71dec22ea22f2797664d89a"
-    },
-    {
-      "id": 69,
-      "store": "foetex",
-      "category": "Kolonial",
       "name": "Økologiske danske hokkaido græskar eller spaghetti squash",
       "nameEn": "Økologiske danish hokkaido græskar or spaghetti squash",
       "unit": "1 pcs",
@@ -1189,24 +1155,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-9.webp&w=600&x1r=0.705&x2r=1&y1r=0.635&y2r=1&s=43019b2e24dfa4f182be0e9640c47f1f"
     },
     {
-      "id": 70,
+      "id": 68,
       "store": "foetex",
-      "category": "Drikkevarer",
-      "name": "Ølmarked",
-      "nameEn": "Ølmarked",
-      "unit": "25 cl",
+      "category": "Slik & chokolade",
+      "name": "Toffifee, Nutella eller M&M’s slikpose",
+      "nameEn": "Toffifee, Nutella or M&M’s slikpose",
+      "unit": "192.5 g",
       "qty": {
-        "size": 25,
-        "unit": "cl",
-        "pieces": 12
+        "size": 192.5,
+        "unit": "g",
+        "pieces": 1
       },
       "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 105.0,
+      "price": 30.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-29.webp&w=600&x1r=0.662&x2r=0.98&y1r=0.012&y2r=0.262&s=83b1398f2f8a8976f6b60085c03ba667"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-4.webp&w=600&x1r=0.49&x2r=1&y1r=0.14&y2r=0.53&s=183f9f04f11a401eaf5e9a8d012752e6"
     },
     {
-      "id": 71,
+      "id": 69,
       "store": "foetex",
       "category": "Drikkevarer",
       "name": "Valsølille juice eller smoothie",
@@ -1223,24 +1189,41 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-1.webp&w=600&x1r=0.02&x2r=0.28&y1r=0.23&y2r=0.65&s=3fabdf6d3e9e7312f6f8d02011d3685d"
     },
     {
-      "id": 72,
+      "id": 70,
       "store": "foetex",
       "category": "Drikkevarer",
-      "name": "Coca-Cola sodavand",
-      "nameEn": "Coca-Cola soda",
-      "unit": "33 cl",
+      "name": "Drikkevaremarked",
+      "nameEn": "Drikkevaremarked",
+      "unit": "27.5 cl",
       "qty": {
-        "size": 33,
+        "size": 27.5,
         "unit": "cl",
-        "pieces": 24
+        "pieces": 1
       },
       "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 79.0,
+      "price": 12.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-29.webp&w=600&x1r=0.562&x2r=0.98&y1r=0.762&y2r=0.96&s=aadb2c1f6decd682051b5217c4327809"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-5.webp&w=600&x1r=0.02&x2r=0.47&y1r=0.11&y2r=0.52&s=7a465e1da71dec22ea22f2797664d89a"
     },
     {
-      "id": 73,
+      "id": 71,
+      "store": "foetex",
+      "category": "Drikkevarer",
+      "name": "Ølmarked",
+      "nameEn": "Ølmarked",
+      "unit": "25 cl",
+      "qty": {
+        "size": 25,
+        "unit": "cl",
+        "pieces": 12
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 105.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-29.webp&w=600&x1r=0.662&x2r=0.98&y1r=0.012&y2r=0.262&s=83b1398f2f8a8976f6b60085c03ba667"
+    },
+    {
+      "id": 72,
       "store": "foetex",
       "category": "Kolonial",
       "name": "Kohberg brød",
@@ -1257,7 +1240,41 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-1.webp&w=600&x1r=0.24&x2r=0.98&y1r=0.18&y2r=0.74&s=e1c88305270eb4f1d66f55eaa5bef8fe"
     },
     {
+      "id": 73,
+      "store": "foetex",
+      "category": "Drikkevarer",
+      "name": "Coca-Cola sodavand",
+      "nameEn": "Coca-Cola soda",
+      "unit": "33 cl",
+      "qty": {
+        "size": 33,
+        "unit": "cl",
+        "pieces": 24
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 79.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-29.webp&w=600&x1r=0.562&x2r=0.98&y1r=0.762&y2r=0.96&s=aadb2c1f6decd682051b5217c4327809"
+    },
+    {
       "id": 74,
+      "store": "foetex",
+      "category": "Kolonial",
+      "name": "salling Mysli eller granola",
+      "nameEn": "salling Mysli or granola",
+      "unit": "300 g",
+      "qty": {
+        "size": 300,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 20.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-2.webp&w=600&x1r=0.019&x2r=0.963&y1r=0.177&y2r=0.505&s=532af5c166be4f3356d3b963e33a3b1d"
+    },
+    {
+      "id": 75,
       "store": "foetex",
       "category": "Kolonial",
       "name": "Taffel chips eller nødder",
@@ -1274,7 +1291,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-22.webp&w=600&x1r=0.015&x2r=0.5&y1r=0.735&y2r=0.965&s=b49e2fec4c7f272392b1309f28eb5dd6"
     },
     {
-      "id": 75,
+      "id": 76,
       "store": "foetex",
       "category": "Kolonial",
       "name": "Philadelphia",
@@ -1289,23 +1306,6 @@
       "price": 14.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-19.webp&w=600&x1r=0.02&x2r=0.27&y1r=0.02&y2r=0.26&s=5326373e167fa3b3cc106604c98d9a0b"
-    },
-    {
-      "id": 76,
-      "store": "foetex",
-      "category": "Kolonial",
-      "name": "salling Mysli eller granola",
-      "nameEn": "salling Mysli or granola",
-      "unit": "300 g",
-      "qty": {
-        "size": 300,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 20.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-2.webp&w=600&x1r=0.019&x2r=0.963&y1r=0.177&y2r=0.505&s=532af5c166be4f3356d3b963e33a3b1d"
     },
     {
       "id": 77,
@@ -1327,23 +1327,6 @@
     {
       "id": 78,
       "store": "foetex",
-      "category": "Mejeri",
-      "name": "Them skæreost",
-      "nameEn": "Them skæreost",
-      "unit": "450 g",
-      "qty": {
-        "size": 450,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 55.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-19.webp&w=600&x1r=0.27&x2r=1&y1r=0.028&y2r=0.704&s=7f8cfbc21560a044e087cc0ea69be519"
-    },
-    {
-      "id": 79,
-      "store": "foetex",
       "category": "Kød & fisk",
       "name": "Frilandskylling",
       "nameEn": "Frilandskylling",
@@ -1359,41 +1342,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-25.webp&w=600&x1r=0&x2r=0.5&y1r=0.569&y2r=1&s=8974ef3394fd64835553ebd3a0b50d3b"
     },
     {
-      "id": 80,
+      "id": 79,
       "store": "foetex",
-      "category": "Kolonial",
-      "name": "Livol+10% vitaminer",
-      "nameEn": "Livol+10% vitaminer",
-      "unit": "1 pcs",
+      "category": "Mejeri",
+      "name": "Them skæreost",
+      "nameEn": "Them skæreost",
+      "unit": "450 g",
       "qty": {
-        "size": 1,
-        "unit": "pcs",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-30T21:59:59+0000",
-      "price": 79.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRmINA_fT%2Fp-6.webp&w=600&x1r=0.68&x2r=0.94&y1r=0.23&y2r=0.49&s=24a0e4e4845c74031fbd76fefcd5d959"
-    },
-    {
-      "id": 81,
-      "store": "foetex",
-      "category": "Kolonial",
-      "name": "Røget hamburgerryg, nakkefilet eller marineret kamfilet af gris",
-      "nameEn": "Røget hamburgerryg, nakkefilet or marineret kamfilet af gris",
-      "unit": "1.6 kg",
-      "qty": {
-        "size": 1.6,
-        "unit": "kg",
+        "size": 450,
+        "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 119.0,
+      "price": 55.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-11.webp&w=600&x1r=0.49&x2r=0.98&y1r=0.49&y2r=0.95&s=231f4e27648a13bb8a5748f092fb3888"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-19.webp&w=600&x1r=0.27&x2r=1&y1r=0.028&y2r=0.704&s=7f8cfbc21560a044e087cc0ea69be519"
     },
     {
-      "id": 82,
+      "id": 80,
       "store": "foetex",
       "category": "Kolonial",
       "name": "Mou suppeboller",
@@ -1410,7 +1376,58 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-24.webp&w=600&x1r=0.022&x2r=0.733&y1r=0.265&y2r=0.709&s=53a5aca697309094cd35e772d0a779c4"
     },
     {
+      "id": 81,
+      "store": "foetex",
+      "category": "Kolonial",
+      "name": "Livol+10% vitaminer",
+      "nameEn": "Livol+10% vitaminer",
+      "unit": "1 pcs",
+      "qty": {
+        "size": 1,
+        "unit": "pcs",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-30T21:59:59+0000",
+      "price": 79.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRmINA_fT%2Fp-6.webp&w=600&x1r=0.68&x2r=0.94&y1r=0.23&y2r=0.49&s=24a0e4e4845c74031fbd76fefcd5d959"
+    },
+    {
+      "id": 82,
+      "store": "foetex",
+      "category": "Mejeri",
+      "name": "Frostmarked",
+      "nameEn": "Frostmarked",
+      "unit": "300 g",
+      "qty": {
+        "size": 300,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 38.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-12.webp&w=600&x1r=0.022&x2r=0.505&y1r=0.725&y2r=0.968&s=460ebecab5d144d7215341e5b3dfae64"
+    },
+    {
       "id": 83,
+      "store": "foetex",
+      "category": "Kolonial",
+      "name": "Røget hamburgerryg, nakkefilet eller marineret kamfilet af gris",
+      "nameEn": "Røget hamburgerryg, nakkefilet or marineret kamfilet af gris",
+      "unit": "1.6 kg",
+      "qty": {
+        "size": 1.6,
+        "unit": "kg",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 119.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-11.webp&w=600&x1r=0.49&x2r=0.98&y1r=0.49&y2r=0.95&s=231f4e27648a13bb8a5748f092fb3888"
+    },
+    {
+      "id": 84,
       "store": "foetex",
       "category": "Mejeri",
       "name": "Børnesnacks eller Puck ost",
@@ -1427,7 +1444,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-19.webp&w=600&x1r=0.71&x2r=0.98&y1r=0.71&y2r=0.96&s=1d3aac267d49ca9ce680f51caae0e5bf"
     },
     {
-      "id": 84,
+      "id": 85,
       "store": "foetex",
       "category": "Kød & fisk",
       "name": "Hakket okse- eller grise/kalvekød",
@@ -1442,23 +1459,6 @@
       "price": 109.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRmINA_fT%2Fp-6.webp&w=600&x1r=0.06&x2r=0.94&y1r=0.73&y2r=0.92&s=0db308bb9b775c0508f661d044d5c9df"
-    },
-    {
-      "id": 85,
-      "store": "foetex",
-      "category": "Mejeri",
-      "name": "Frostmarked",
-      "nameEn": "Frostmarked",
-      "unit": "300 g",
-      "qty": {
-        "size": 300,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 38.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-12.webp&w=600&x1r=0.022&x2r=0.505&y1r=0.725&y2r=0.968&s=460ebecab5d144d7215341e5b3dfae64"
     },
     {
       "id": 86,
@@ -1497,23 +1497,6 @@
     {
       "id": 88,
       "store": "foetex",
-      "category": "Kød & fisk",
-      "name": "Kæmpeposen kyllingespyd",
-      "nameEn": "Kæmpeposen kyllingespyd",
-      "unit": "1 kg",
-      "qty": {
-        "size": 1,
-        "unit": "kg",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 65.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-10.webp&w=600&x1r=0.015&x2r=0.275&y1r=0.725&y2r=0.985&s=6e87fc34842cb2b262dcfbf686df9237"
-    },
-    {
-      "id": 89,
-      "store": "foetex",
       "category": "Mejeri",
       "name": "Burger BOOST, Burger BOOST Smoky Twist, Burger BOOST Sliders eller Hakke BOOST",
       "nameEn": "Burger BOOST, Burger BOOST Smoky Twist, Burger BOOST Sliders or Hakke BOOST",
@@ -1527,6 +1510,23 @@
       "price": 39.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-34.webp&w=600&x1r=0.02&x2r=0.98&y1r=0.015&y2r=0.792&s=bafc4115d40bbf18a8c8774279a8fa1f"
+    },
+    {
+      "id": 89,
+      "store": "foetex",
+      "category": "Kød & fisk",
+      "name": "Kæmpeposen kyllingespyd",
+      "nameEn": "Kæmpeposen kyllingespyd",
+      "unit": "1 kg",
+      "qty": {
+        "size": 1,
+        "unit": "kg",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 65.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-10.webp&w=600&x1r=0.015&x2r=0.275&y1r=0.725&y2r=0.985&s=6e87fc34842cb2b262dcfbf686df9237"
     },
     {
       "id": 90,
@@ -1548,40 +1548,6 @@
     {
       "id": 91,
       "store": "foetex",
-      "category": "Drikkevarer",
-      "name": "Tuborg Classic eller Classic alkoholfri øl",
-      "nameEn": "Tuborg Classic or Classic alkoholfri beer",
-      "unit": "33 cl",
-      "qty": {
-        "size": 33,
-        "unit": "cl",
-        "pieces": 15
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 105.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-8.webp&w=600&x1r=0.03&x2r=0.97&y1r=0.64&y2r=0.97&s=aad85b049011a18f27a9689855405fe8"
-    },
-    {
-      "id": 92,
-      "store": "foetex",
-      "category": "Kolonial",
-      "name": "Carlsberg, Grøn Tuborg eller Tuborg Classic flasker",
-      "nameEn": "Carlsberg, Grøn Tuborg or Tuborg Classic flasker",
-      "unit": "33 cl",
-      "qty": {
-        "size": 33,
-        "unit": "cl",
-        "pieces": 30
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 140.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-29.webp&w=600&x1r=0.314&x2r=0.98&y1r=0.25&y2r=0.558&s=d360d7f8efeb8516f2c5a19b7044f7b5"
-    },
-    {
-      "id": 93,
-      "store": "foetex",
       "category": "Kolonial",
       "name": "Black Coffee eller Christgau helbønner",
       "nameEn": "Black Coffee or Christgau helbønner",
@@ -1597,7 +1563,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-26.webp&w=600&x1r=0.448&x2r=1&y1r=0.488&y2r=0.98&s=417d3e56e488744b48a07f3678a4a9eb"
     },
     {
-      "id": 94,
+      "id": 92,
       "store": "foetex",
       "category": "Kolonial",
       "name": "Roastbeef af inderlår",
@@ -1612,6 +1578,40 @@
       "price": 74.95,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-11.webp&w=600&x1r=0.59&x2r=0.98&y1r=0.27&y2r=0.49&s=d8aa356efcd614f256f87f70037f6369"
+    },
+    {
+      "id": 93,
+      "store": "foetex",
+      "category": "Drikkevarer",
+      "name": "Tuborg Classic eller Classic alkoholfri øl",
+      "nameEn": "Tuborg Classic or Classic alkoholfri beer",
+      "unit": "33 cl",
+      "qty": {
+        "size": 33,
+        "unit": "cl",
+        "pieces": 15
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 105.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-8.webp&w=600&x1r=0.03&x2r=0.97&y1r=0.64&y2r=0.97&s=aad85b049011a18f27a9689855405fe8"
+    },
+    {
+      "id": 94,
+      "store": "foetex",
+      "category": "Kolonial",
+      "name": "Carlsberg, Grøn Tuborg eller Tuborg Classic flasker",
+      "nameEn": "Carlsberg, Grøn Tuborg or Tuborg Classic flasker",
+      "unit": "33 cl",
+      "qty": {
+        "size": 33,
+        "unit": "cl",
+        "pieces": 30
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 140.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-29.webp&w=600&x1r=0.314&x2r=0.98&y1r=0.25&y2r=0.558&s=d360d7f8efeb8516f2c5a19b7044f7b5"
     },
     {
       "id": 95,
@@ -1633,6 +1633,23 @@
     {
       "id": 96,
       "store": "foetex",
+      "category": "Kød & fisk",
+      "name": "Grønlandske rejer, kold- eller varmrøget laks",
+      "nameEn": "Grønlandske shrimp kold- or varmrøget salmon",
+      "unit": "175 g",
+      "qty": {
+        "size": 175,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 59.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-3.webp&w=600&x1r=0.5&x2r=0.965&y1r=0.51&y2r=0.965&s=b3aaae464f8ce5714a31099774e69d3a"
+    },
+    {
+      "id": 97,
+      "store": "foetex",
       "category": "Kolonial",
       "name": "Lu Petit, Beurre eller Bastogne",
       "nameEn": "Lu Petit, Beurre or Bastogne",
@@ -1648,7 +1665,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-4.webp&w=600&x1r=0&x2r=0.51&y1r=0.14&y2r=0.53&s=8b9053dfa96d30cf54f56c85ad91f241"
     },
     {
-      "id": 97,
+      "id": 98,
       "store": "foetex",
       "category": "Mejeri",
       "name": "Fransk ostemarked",
@@ -1665,7 +1682,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-18.webp&w=600&x1r=0.025&x2r=0.27&y1r=0.475&y2r=0.695&s=644f02a8e7cad8e4c5ceebc56bf082df"
     },
     {
-      "id": 98,
+      "id": 99,
+      "store": "foetex",
+      "category": "Kød & fisk",
+      "name": "Laksestykke",
+      "nameEn": "Laksestykke",
+      "unit": "600 g",
+      "qty": {
+        "size": 600,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-17T21:59:59+0000",
+      "price": 89.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-12.webp&w=600&x1r=0.267&x2r=0.952&y1r=0.258&y2r=0.722&s=a6c2a02b71f3094736d72de919305f06"
+    },
+    {
+      "id": 100,
       "store": "foetex",
       "category": "Slik & chokolade",
       "name": "Kinder chokolade 8-pak, Ferrero plade, M&M’s eller Fazer slikpose",
@@ -1680,40 +1714,6 @@
       "price": 25.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRmINA_fT%2Fp-6.webp&w=600&x1r=0.06&x2r=0.33&y1r=0.49&y2r=0.74&s=a2b8dc9b5cff733055541f7ef79da9f6"
-    },
-    {
-      "id": 99,
-      "store": "foetex",
-      "category": "Kød & fisk",
-      "name": "Grønlandske rejer, kold- eller varmrøget laks",
-      "nameEn": "Grønlandske shrimp kold- or varmrøget salmon",
-      "unit": "175 g",
-      "qty": {
-        "size": 175,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 59.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-3.webp&w=600&x1r=0.5&x2r=0.965&y1r=0.51&y2r=0.965&s=b3aaae464f8ce5714a31099774e69d3a"
-    },
-    {
-      "id": 100,
-      "store": "foetex",
-      "category": "Kolonial",
-      "name": "Kamsteg",
-      "nameEn": "Kamsteg",
-      "unit": "1 pcs",
-      "qty": {
-        "size": 1,
-        "unit": "pcs",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-17T21:59:59+0000",
-      "price": 45.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fkac7DDUo%2Fp-13.webp&w=600&x1r=0.585&x2r=0.965&y1r=0.205&y2r=0.46&s=8b2902b5b43f49febdf2363a5d4357f8"
     },
     {
       "id": 101,
@@ -1906,23 +1906,6 @@
       "id": 112,
       "store": "lidl",
       "category": "Kød & fisk",
-      "name": "MADVÆRKET Hel kylling",
-      "nameEn": "MADVÆRKET whole chicken",
-      "unit": "1350 g",
-      "qty": {
-        "size": 1350,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-12-31T22:59:59+0000",
-      "price": 49.95,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-20.webp&w=600&x1r=0.0043&x2r=0.4461&y1r=0.1283&y2r=0.4622&s=06d1d91cb4a929ecd94738589558945f"
-    },
-    {
-      "id": 113,
-      "store": "lidl",
-      "category": "Kød & fisk",
       "name": "ROSE Hakket kylling, kyllingeinderfilet eller -lårmix",
       "nameEn": "ROSE ground chicken kyllingeinderfilet or -lårmix",
       "unit": "500 g",
@@ -1935,6 +1918,23 @@
       "price": 39.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-3.webp&w=600&x1r=0.5&x2r=1&y1r=0.05&y2r=0.27&s=2ec613e2da0250f0ef962aa22de89ef9"
+    },
+    {
+      "id": 113,
+      "store": "lidl",
+      "category": "Kød & fisk",
+      "name": "MADVÆRKET Hel kylling",
+      "nameEn": "MADVÆRKET whole chicken",
+      "unit": "1350 g",
+      "qty": {
+        "size": 1350,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-12-31T22:59:59+0000",
+      "price": 49.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-20.webp&w=600&x1r=0.0043&x2r=0.4461&y1r=0.1283&y2r=0.4622&s=06d1d91cb4a929ecd94738589558945f"
     },
     {
       "id": 114,
@@ -2092,23 +2092,6 @@
     {
       "id": 123,
       "store": "lidl",
-      "category": "Kød & fisk",
-      "name": "STEFF HOULBERG Hotdog-, grill- eller bayerske pølser",
-      "nameEn": "STEFF HOULBERG Hotdog-, grill- or bayerske sausages",
-      "unit": "375 g",
-      "qty": {
-        "size": 375,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-12-31T22:59:59+0000",
-      "price": 24.95,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-29.webp&w=600&x1r=0.6485&x2r=1&y1r=0.7104&y2r=0.9463&s=5294c48fe68526aa5d8ef62790a56943"
-    },
-    {
-      "id": 124,
-      "store": "lidl",
       "category": "Drikkevarer",
       "name": "TUBORG Øl",
       "nameEn": "TUBORG beer",
@@ -2122,6 +2105,23 @@
       "price": 55.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-37.webp&w=600&x1r=0.02&x2r=0.98&y1r=0.04&y2r=0.49&s=5fd866bc0e1c2e1ea557939fec4ffbd0"
+    },
+    {
+      "id": 124,
+      "store": "lidl",
+      "category": "Kød & fisk",
+      "name": "STEFF HOULBERG Hotdog-, grill- eller bayerske pølser",
+      "nameEn": "STEFF HOULBERG Hotdog-, grill- or bayerske sausages",
+      "unit": "375 g",
+      "qty": {
+        "size": 375,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-12-31T22:59:59+0000",
+      "price": 24.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-29.webp&w=600&x1r=0.6485&x2r=1&y1r=0.7104&y2r=0.9463&s=5294c48fe68526aa5d8ef62790a56943"
     },
     {
       "id": 125,
@@ -2160,23 +2160,6 @@
     {
       "id": 127,
       "store": "lidl",
-      "category": "Kolonial",
-      "name": "BUTCHER’S Nakkefilet",
-      "nameEn": "BUTCHER’S Nakkefilet",
-      "unit": "1 kg",
-      "qty": {
-        "size": 1,
-        "unit": "kg",
-        "pieces": 1
-      },
-      "validUntil": "2026-12-31T22:59:59+0000",
-      "price": 59.9,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-27.webp&w=600&x1r=0.4983&x2r=0.9957&y1r=0.712&y2r=0.9465&s=8b5f10cab6072436fc5b73430eb68513"
-    },
-    {
-      "id": 128,
-      "store": "lidl",
       "category": "Drikkevarer",
       "name": "BELLAROM Instantkaffe",
       "nameEn": "BELLAROM Instantkaffe",
@@ -2192,21 +2175,38 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-38.webp&w=600&x1r=0.003&x2r=0.505&y1r=0.717&y2r=0.95&s=e56baa418e1d6eddfce6df1117593739"
     },
     {
-      "id": 129,
+      "id": 128,
       "store": "lidl",
-      "category": "Mejeri",
-      "name": "MILBONA Græsk yoghurt",
-      "nameEn": "MILBONA Græsk yoghurt",
-      "unit": "500 g",
+      "category": "Kolonial",
+      "name": "BUTCHER’S Nakkefilet",
+      "nameEn": "BUTCHER’S Nakkefilet",
+      "unit": "1 kg",
       "qty": {
-        "size": 500,
-        "unit": "g",
+        "size": 1,
+        "unit": "kg",
         "pieces": 1
       },
       "validUntil": "2026-12-31T22:59:59+0000",
-      "price": 14.95,
+      "price": 59.9,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-33.webp&w=600&x1r=0.0179&x2r=0.5093&y1r=0.7119&y2r=0.9469&s=113e9a9ce2dc4342aedeffea01ad352e"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-27.webp&w=600&x1r=0.4983&x2r=0.9957&y1r=0.712&y2r=0.9465&s=8b5f10cab6072436fc5b73430eb68513"
+    },
+    {
+      "id": 129,
+      "store": "lidl",
+      "category": "Kolonial",
+      "name": "TRATTORIA ALFREDO High Protein pizza",
+      "nameEn": "TRATTORIA ALFREDO High Protein pizza",
+      "unit": "254 g",
+      "qty": {
+        "size": 254,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 20.0,
+      "was": 29.95,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-6.webp&w=600&x1r=0&x2r=0.518&y1r=0.718&y2r=0.944&s=c7591a8f65d4ca5d23f16b5e2ccd983c"
     },
     {
       "id": 130,
@@ -2228,22 +2228,39 @@
     {
       "id": 131,
       "store": "lidl",
-      "category": "Kolonial",
-      "name": "TRATTORIA ALFREDO High Protein pizza",
-      "nameEn": "TRATTORIA ALFREDO High Protein pizza",
-      "unit": "254 g",
+      "category": "Mejeri",
+      "name": "MILBONA Græsk yoghurt",
+      "nameEn": "MILBONA Græsk yoghurt",
+      "unit": "500 g",
       "qty": {
-        "size": 254,
+        "size": 500,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-12-31T22:59:59+0000",
+      "price": 14.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-33.webp&w=600&x1r=0.0179&x2r=0.5093&y1r=0.7119&y2r=0.9469&s=113e9a9ce2dc4342aedeffea01ad352e"
+    },
+    {
+      "id": 132,
+      "store": "lidl",
+      "category": "Kolonial",
+      "name": "ITALIAMO Espresso Magnifico",
+      "nameEn": "ITALIAMO Espresso Magnifico",
+      "unit": "1000 g",
+      "qty": {
+        "size": 1000,
         "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 20.0,
-      "was": 29.95,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-6.webp&w=600&x1r=0&x2r=0.518&y1r=0.718&y2r=0.944&s=c7591a8f65d4ca5d23f16b5e2ccd983c"
+      "price": 109.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-13.webp&w=600&x1r=0&x2r=0.535&y1r=0.1&y2r=0.511&s=5fdf2d91444403f17e4e321c67d575e2"
     },
     {
-      "id": 132,
+      "id": 133,
       "store": "lidl",
       "category": "Kød & fisk",
       "name": "MADVÆRKET Hakket oksekød",
@@ -2260,7 +2277,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-23.webp&w=600&x1r=0.0158&x2r=0.5054&y1r=0.7141&y2r=0.9469&s=a4a14f0c132a62aba3c62eccf3692122"
     },
     {
-      "id": 133,
+      "id": 134,
       "store": "lidl",
       "category": "Mejeri",
       "name": "Hytteost",
@@ -2277,7 +2294,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-34.webp&w=600&x1r=0.4738&x2r=0.9981&y1r=0.7136&y2r=0.9393&s=d532e1e298115f0700613a495790c89e"
     },
     {
-      "id": 134,
+      "id": 135,
       "store": "lidl",
       "category": "Kolonial",
       "name": "MILBONA Gouda eller tilsiter",
@@ -2292,23 +2309,6 @@
       "price": 29.95,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-39.webp&w=600&x1r=0.0133&x2r=0.5052&y1r=0.7111&y2r=0.9468&s=78ff73f7d50261bb73e893daab8e2274"
-    },
-    {
-      "id": 135,
-      "store": "lidl",
-      "category": "Kolonial",
-      "name": "ITALIAMO Espresso Magnifico",
-      "nameEn": "ITALIAMO Espresso Magnifico",
-      "unit": "1000 g",
-      "qty": {
-        "size": 1000,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 109.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-13.webp&w=600&x1r=0&x2r=0.535&y1r=0.1&y2r=0.511&s=5fdf2d91444403f17e4e321c67d575e2"
     },
     {
       "id": 136,
@@ -2450,23 +2450,6 @@
       "id": 144,
       "store": "lidl",
       "category": "Kød & fisk",
-      "name": "MADVÆRKET Kyllingebrystfilet",
-      "nameEn": "MADVÆRKET Kyllingebrystfilet",
-      "unit": "450 g",
-      "qty": {
-        "size": 450,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-12-31T22:59:59+0000",
-      "price": 34.95,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-20.webp&w=600&x1r=0.4982&x2r=0.9903&y1r=0.4684&y2r=0.7094&s=c76ab345e3caa709751c7e328080d9d8"
-    },
-    {
-      "id": 145,
-      "store": "lidl",
-      "category": "Kød & fisk",
       "name": "MADVÆRKET Hakket oksekød",
       "nameEn": "MADVÆRKET ground beef",
       "unit": "400 g",
@@ -2479,6 +2462,23 @@
       "price": 37.95,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-23.webp&w=600&x1r=0.4978&x2r=0.9953&y1r=0.4708&y2r=0.7114&s=f5f83dfb3d6291fd66b0c708b6109229"
+    },
+    {
+      "id": 145,
+      "store": "lidl",
+      "category": "Kød & fisk",
+      "name": "MADVÆRKET Kyllingebrystfilet",
+      "nameEn": "MADVÆRKET Kyllingebrystfilet",
+      "unit": "450 g",
+      "qty": {
+        "size": 450,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-12-31T22:59:59+0000",
+      "price": 34.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-20.webp&w=600&x1r=0.4982&x2r=0.9903&y1r=0.4684&y2r=0.7094&s=c76ab345e3caa709751c7e328080d9d8"
     },
     {
       "id": 146,
@@ -2517,23 +2517,6 @@
     {
       "id": 148,
       "store": "lidl",
-      "category": "Drikkevarer",
-      "name": "HARVEST BASKET Bølgeskårne pommes frites",
-      "nameEn": "HARVEST BASKET Bølgeskårne pommes frites",
-      "unit": "1 kg",
-      "qty": {
-        "size": 1,
-        "unit": "kg",
-        "pieces": 1
-      },
-      "validUntil": "2026-12-31T22:59:59+0000",
-      "price": 9.95,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-50.webp&w=600&x1r=0&x2r=0.4961&y1r=0.1139&y2r=0.4624&s=ea21b3e9729dd661c2547198aa8f6f40"
-    },
-    {
-      "id": 149,
-      "store": "lidl",
       "category": "Kolonial",
       "name": "SCHULSTAD Brød",
       "nameEn": "SCHULSTAD bread",
@@ -2549,7 +2532,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-4.webp&w=600&x1r=0.012&x2r=0.494&y1r=0.725&y2r=0.949&s=5ccc58180c29b34b0ed3c298af2476b7"
     },
     {
-      "id": 150,
+      "id": 149,
       "store": "lidl",
       "category": "Kolonial",
       "name": "ITALIAMO Italiensk salami eller salsiccia",
@@ -2564,6 +2547,23 @@
       "price": 30.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYRiIordl%2Fp-10.webp&w=600&x1r=0.02&x2r=0.49&y1r=0.23&y2r=0.5&s=89bb518318fb16928a5cad3408e9ece8"
+    },
+    {
+      "id": 150,
+      "store": "lidl",
+      "category": "Drikkevarer",
+      "name": "HARVEST BASKET Bølgeskårne pommes frites",
+      "nameEn": "HARVEST BASKET Bølgeskårne pommes frites",
+      "unit": "1 kg",
+      "qty": {
+        "size": 1,
+        "unit": "kg",
+        "pieces": 1
+      },
+      "validUntil": "2026-12-31T22:59:59+0000",
+      "price": 9.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZrH0Ew45%2Fp-50.webp&w=600&x1r=0&x2r=0.4961&y1r=0.1139&y2r=0.4624&s=ea21b3e9729dd661c2547198aa8f6f40"
     },
     {
       "id": 151,
@@ -2619,23 +2619,6 @@
     {
       "id": 154,
       "store": "netto",
-      "category": "Drikkevarer",
-      "name": "Karat original, Merrild specialristet eller Peter Larsen Kaffe blanding 66 formalet kaffe",
-      "nameEn": "Karat original, Merrild specialristet or Peter Larsen coffee blanding 66 formalet coffee",
-      "unit": "400 g",
-      "qty": {
-        "size": 400,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 33.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-n1X2hi%2Fp-1.webp&w=600&x1r=0.505&x2r=0.98&y1r=0.195&y2r=0.534&s=dbbfaf1372753a65d8b7f6300372aa8b"
-    },
-    {
-      "id": 155,
-      "store": "netto",
       "category": "Kolonial",
       "name": "Kohberg brød",
       "nameEn": "Kohberg bread",
@@ -2649,6 +2632,23 @@
       "price": 15.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-12.webp&w=600&x1r=0.66&x2r=0.98&y1r=0.01&y2r=0.42&s=5e003587d2bbfd132724c20310f3bb3c"
+    },
+    {
+      "id": 155,
+      "store": "netto",
+      "category": "Drikkevarer",
+      "name": "Karat original, Merrild specialristet eller Peter Larsen Kaffe blanding 66 formalet kaffe",
+      "nameEn": "Karat original, Merrild specialristet or Peter Larsen coffee blanding 66 formalet coffee",
+      "unit": "400 g",
+      "qty": {
+        "size": 400,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 33.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-n1X2hi%2Fp-1.webp&w=600&x1r=0.505&x2r=0.98&y1r=0.195&y2r=0.534&s=dbbfaf1372753a65d8b7f6300372aa8b"
     },
     {
       "id": 156,
@@ -2670,23 +2670,6 @@
     {
       "id": 157,
       "store": "netto",
-      "category": "Kolonial",
-      "name": "Velsmag hamburgerryg eller ribbenssteg uden ben",
-      "nameEn": "Velsmag hamburgerryg or ribbenssteg without ben",
-      "unit": "0.5 kg",
-      "qty": {
-        "size": 0.5,
-        "unit": "kg",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 24.95,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-9.webp&w=600&x1r=0.532&x2r=0.99&y1r=0.672&y2r=0.985&s=b18b0b0e437dbb116c7e6447a91e9f22"
-    },
-    {
-      "id": 158,
-      "store": "netto",
       "category": "Kød & fisk",
       "name": "Dansk kyllingebrystfilet eller inderfilet",
       "nameEn": "danish kyllingebrystfilet or inderfilet",
@@ -2700,6 +2683,23 @@
       "price": 65.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-10.webp&w=600&x1r=0.5&x2r=0.99&y1r=0.69&y2r=0.97&s=c68802a93e971a51bff90e0e1759ff84"
+    },
+    {
+      "id": 158,
+      "store": "netto",
+      "category": "Kolonial",
+      "name": "Velsmag hamburgerryg eller ribbenssteg uden ben",
+      "nameEn": "Velsmag hamburgerryg or ribbenssteg without ben",
+      "unit": "0.5 kg",
+      "qty": {
+        "size": 0.5,
+        "unit": "kg",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 24.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-9.webp&w=600&x1r=0.532&x2r=0.99&y1r=0.672&y2r=0.985&s=b18b0b0e437dbb116c7e6447a91e9f22"
     },
     {
       "id": 159,
@@ -2721,23 +2721,6 @@
     {
       "id": 160,
       "store": "netto",
-      "category": "Kød & fisk",
-      "name": "Langelænder storkøbspølser",
-      "nameEn": "Langelænder storkøbspølser",
-      "unit": "560 g",
-      "qty": {
-        "size": 560,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 35.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3oImCjjh%2Fp-3.webp&w=600&x1r=0.012&x2r=0.506&y1r=0.434&y2r=0.78&s=2224bcb7bb59033224342207d0dbe05b"
-    },
-    {
-      "id": 161,
-      "store": "netto",
       "category": "Kolonial",
       "name": "Andoni italiensk pizza",
       "nameEn": "Andoni italiensk pizza",
@@ -2751,6 +2734,23 @@
       "price": 20.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-6.webp&w=600&x1r=0.02&x2r=0.465&y1r=0.675&y2r=0.985&s=9fb77b7b0e21bcb28cd598a313defcca"
+    },
+    {
+      "id": 161,
+      "store": "netto",
+      "category": "Kød & fisk",
+      "name": "Langelænder storkøbspølser",
+      "nameEn": "Langelænder storkøbspølser",
+      "unit": "560 g",
+      "qty": {
+        "size": 560,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 35.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3oImCjjh%2Fp-3.webp&w=600&x1r=0.012&x2r=0.506&y1r=0.434&y2r=0.78&s=2224bcb7bb59033224342207d0dbe05b"
     },
     {
       "id": 162,
@@ -2942,23 +2942,6 @@
     {
       "id": 173,
       "store": "netto",
-      "category": "Kolonial",
-      "name": "Zanetti Grana Padano",
-      "nameEn": "Zanetti Grana Padano",
-      "unit": "200 g",
-      "qty": {
-        "size": 200,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 39.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3oImCjjh%2Fp-2.webp&w=600&x1r=0.535&x2r=0.985&y1r=0.19&y2r=0.479&s=90a6c810494a58a5654bf62aeba2f2be"
-    },
-    {
-      "id": 174,
-      "store": "netto",
       "category": "Frugt & grønt",
       "name": "ØGO økologiske grøntsager",
       "nameEn": "ØGO økologiske grøntsager",
@@ -2974,24 +2957,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3oImCjjh%2Fp-1.webp&w=600&x1r=0.472&x2r=0.996&y1r=0.302&y2r=0.75&s=6595ab785f06c3e5cc3777b5589fd121"
     },
     {
-      "id": 175,
+      "id": 174,
       "store": "netto",
-      "category": "Drikkevarer",
-      "name": "Coca Cola, Fanta eller Sprite Sodavand",
-      "nameEn": "Coca cola Fanta or Sprite soda",
-      "unit": "33 cl",
+      "category": "Kolonial",
+      "name": "Zanetti Grana Padano",
+      "nameEn": "Zanetti Grana Padano",
+      "unit": "200 g",
       "qty": {
-        "size": 33,
-        "unit": "cl",
-        "pieces": 24
+        "size": 200,
+        "unit": "g",
+        "pieces": 1
       },
       "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 89.0,
+      "price": 39.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-19.webp&w=600&x1r=0.015&x2r=0.582&y1r=0.678&y2r=0.97&s=e8949c7ab8d018cb0dd93e019ca1fe45"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3oImCjjh%2Fp-2.webp&w=600&x1r=0.535&x2r=0.985&y1r=0.19&y2r=0.479&s=90a6c810494a58a5654bf62aeba2f2be"
     },
     {
-      "id": 176,
+      "id": 175,
       "store": "netto",
       "category": "Kød & fisk",
       "name": "Næmt kylling",
@@ -3008,21 +2991,38 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3oImCjjh%2Fp-3.webp&w=600&x1r=0.5&x2r=0.96&y1r=0.022&y2r=0.396&s=d04cdf1db2ba2a4d6e4144223c9c4b7b"
     },
     {
+      "id": 176,
+      "store": "netto",
+      "category": "Drikkevarer",
+      "name": "Coca Cola, Fanta eller Sprite Sodavand",
+      "nameEn": "Coca cola Fanta or Sprite soda",
+      "unit": "33 cl",
+      "qty": {
+        "size": 33,
+        "unit": "cl",
+        "pieces": 24
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 89.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-19.webp&w=600&x1r=0.015&x2r=0.582&y1r=0.678&y2r=0.97&s=e8949c7ab8d018cb0dd93e019ca1fe45"
+    },
+    {
       "id": 177,
       "store": "netto",
       "category": "Kolonial",
-      "name": "Taffel chips",
-      "nameEn": "Taffel chips",
-      "unit": "110 g",
+      "name": "Karolines Køkken sauce",
+      "nameEn": "Karolines Køkken sauce",
+      "unit": "500 ml",
       "qty": {
-        "size": 110,
-        "unit": "g",
+        "size": 500,
+        "unit": "ml",
         "pieces": 1
       },
       "validUntil": "2026-09-18T21:59:59+0000",
       "price": 15.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-16.webp&w=600&x1r=0.34&x2r=0.65&y1r=0.17&y2r=0.4&s=e60456508164a640f6c6ac85edc9b6b4"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-16.webp&w=600&x1r=0.02&x2r=0.33&y1r=0.17&y2r=0.4&s=993add1bed74b0cd37ff84755ca001c9"
     },
     {
       "id": 178,
@@ -3044,23 +3044,6 @@
     {
       "id": 179,
       "store": "netto",
-      "category": "Kolonial",
-      "name": "Karolines Køkken sauce",
-      "nameEn": "Karolines Køkken sauce",
-      "unit": "500 ml",
-      "qty": {
-        "size": 500,
-        "unit": "ml",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 15.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-16.webp&w=600&x1r=0.02&x2r=0.33&y1r=0.17&y2r=0.4&s=993add1bed74b0cd37ff84755ca001c9"
-    },
-    {
-      "id": 180,
-      "store": "netto",
       "category": "Mejeri",
       "name": "H.C. Andersen skæreost",
       "nameEn": "H.C. Andersen skæreost",
@@ -3074,6 +3057,23 @@
       "price": 99.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-11.webp&w=600&x1r=0.665&x2r=0.985&y1r=0.679&y2r=0.98&s=f9b750aec32c5dc31bb44396a75b3e28"
+    },
+    {
+      "id": 180,
+      "store": "netto",
+      "category": "Kolonial",
+      "name": "Taffel chips",
+      "nameEn": "Taffel chips",
+      "unit": "110 g",
+      "qty": {
+        "size": 110,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 15.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-16.webp&w=600&x1r=0.34&x2r=0.65&y1r=0.17&y2r=0.4&s=e60456508164a640f6c6ac85edc9b6b4"
     },
     {
       "id": 181,
@@ -3112,23 +3112,6 @@
     {
       "id": 183,
       "store": "netto",
-      "category": "Kolonial",
-      "name": "Bådsmand sild",
-      "nameEn": "Bådsmand sild",
-      "unit": "250 g",
-      "qty": {
-        "size": 250,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 26.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-12.webp&w=600&x1r=0.02&x2r=0.48&y1r=0.69&y2r=0.97&s=df210fe0938feed709829ca647595d95"
-    },
-    {
-      "id": 184,
-      "store": "netto",
       "category": "Mejeri",
       "name": "Klovborg skiveost",
       "nameEn": "Klovborg skiveost",
@@ -3142,6 +3125,23 @@
       "price": 20.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-n1X2hi%2Fp-1.webp&w=600&x1r=0.015&x2r=0.505&y1r=0.195&y2r=0.534&s=7a81d4ff97f5829224d0d33f9a4cf743"
+    },
+    {
+      "id": 184,
+      "store": "netto",
+      "category": "Kolonial",
+      "name": "Bådsmand sild",
+      "nameEn": "Bådsmand sild",
+      "unit": "250 g",
+      "qty": {
+        "size": 250,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 26.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-12.webp&w=600&x1r=0.02&x2r=0.48&y1r=0.69&y2r=0.97&s=df210fe0938feed709829ca647595d95"
     },
     {
       "id": 185,
@@ -3197,6 +3197,23 @@
     {
       "id": 188,
       "store": "netto",
+      "category": "Frugt & grønt",
+      "name": "Danske power kartofler",
+      "nameEn": "danish power potatoes",
+      "unit": "900 g",
+      "qty": {
+        "size": 900,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 12.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-8.webp&w=600&x1r=0.49&x2r=1&y1r=0.564&y2r=0.83&s=cb1dd76153dacc5cd4f99f765b25456e"
+    },
+    {
+      "id": 189,
+      "store": "netto",
       "category": "Kolonial",
       "name": "Cocio",
       "nameEn": "Cocio",
@@ -3212,7 +3229,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-6.webp&w=600&x1r=0.485&x2r=0.985&y1r=0.35&y2r=0.68&s=90d868b91732ac52c5839fee750ec620"
     },
     {
-      "id": 189,
+      "id": 190,
       "store": "netto",
       "category": "Kolonial",
       "name": "Jensens Sauce",
@@ -3229,24 +3246,24 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-13.webp&w=600&x1r=0&x2r=0.35&y1r=0.08&y2r=0.42&s=dc1065a33c56abc281de55b8d7428d75"
     },
     {
-      "id": 190,
+      "id": 191,
       "store": "netto",
-      "category": "Frugt & grønt",
-      "name": "Danske power kartofler",
-      "nameEn": "danish power potatoes",
-      "unit": "900 g",
+      "category": "Kød & fisk",
+      "name": "Egelykke bacon i skiver",
+      "nameEn": "Egelykke bacon i skiver",
+      "unit": "300 g",
       "qty": {
-        "size": 900,
+        "size": 300,
         "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 12.0,
+      "price": 19.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-8.webp&w=600&x1r=0.49&x2r=1&y1r=0.564&y2r=0.83&s=cb1dd76153dacc5cd4f99f765b25456e"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-7.webp&w=600&x1r=0.48&x2r=0.72&y1r=0.2&y2r=0.45&s=b1393f418769f46c7e0126e67c3dfc62"
     },
     {
-      "id": 191,
+      "id": 192,
       "store": "netto",
       "category": "Mejeri",
       "name": "Casa Nostra eller Diamond Hill Bag-in-Box",
@@ -3261,23 +3278,6 @@
       "price": 109.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-20.webp&w=600&x1r=0.01&x2r=0.33&y1r=0.33&y2r=0.67&s=6ff06a9c3602c15321b00eb3394d5547"
-    },
-    {
-      "id": 192,
-      "store": "netto",
-      "category": "Kød & fisk",
-      "name": "Gyros, paprikagryde, koteletter, nakkekoteletter eller hakket grise- og kalvekød 4-7%",
-      "nameEn": "Gyros, paprikagryde, koteletter, nakkekoteletter or ground grise- and kalvekød 4-7%",
-      "unit": "350 g",
-      "qty": {
-        "size": 350,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 29.95,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-9.webp&w=600&x1r=0.43&x2r=0.99&y1r=0.015&y2r=0.43&s=acc9d6b1b3a2bd128960538edc63a71f"
     },
     {
       "id": 193,
@@ -3299,6 +3299,23 @@
     {
       "id": 194,
       "store": "netto",
+      "category": "Kød & fisk",
+      "name": "Gyros, paprikagryde, koteletter, nakkekoteletter eller hakket grise- og kalvekød 4-7%",
+      "nameEn": "Gyros, paprikagryde, koteletter, nakkekoteletter or ground grise- and kalvekød 4-7%",
+      "unit": "350 g",
+      "qty": {
+        "size": 350,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 29.95,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-9.webp&w=600&x1r=0.43&x2r=0.99&y1r=0.015&y2r=0.43&s=acc9d6b1b3a2bd128960538edc63a71f"
+    },
+    {
+      "id": 195,
+      "store": "netto",
       "category": "Mejeri",
       "name": "Kinder mælkesnitte eller pingui",
       "nameEn": "Kinder mælkesnitte or pingui",
@@ -3314,38 +3331,21 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3oImCjjh%2Fp-2.webp&w=600&x1r=0.03&x2r=0.495&y1r=0.487&y2r=0.777&s=e6fb90d237d77b0bae32f7441034f339"
     },
     {
-      "id": 195,
-      "store": "netto",
-      "category": "Kød & fisk",
-      "name": "Egelykke bacon i skiver",
-      "nameEn": "Egelykke bacon i skiver",
-      "unit": "300 g",
-      "qty": {
-        "size": 300,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 19.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-7.webp&w=600&x1r=0.48&x2r=0.72&y1r=0.2&y2r=0.45&s=b1393f418769f46c7e0126e67c3dfc62"
-    },
-    {
       "id": 196,
       "store": "netto",
-      "category": "Frugt & grønt",
-      "name": "Beauvais tomatketchup",
-      "nameEn": "Beauvais tomatketchup",
-      "unit": "1 kg",
+      "category": "Drikkevarer",
+      "name": "Faxe Kondi eller Pepsi Max sodavand",
+      "nameEn": "Faxe Kondi or Pepsi Max soda",
+      "unit": "2 l",
       "qty": {
-        "size": 1,
-        "unit": "kg",
+        "size": 2,
+        "unit": "l",
         "pieces": 1
       },
       "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 25.0,
+      "price": 18.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-18.webp&w=600&x1r=0.36&x2r=0.63&y1r=0.67&y2r=0.96&s=beba610926b08d76f7eb24f98d4dd63a"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-19.webp&w=600&x1r=0.021&x2r=0.582&y1r=0.388&y2r=0.672&s=212c33022f9f527afc758cadfd1336b5"
     },
     {
       "id": 197,
@@ -3367,23 +3367,6 @@
     {
       "id": 198,
       "store": "netto",
-      "category": "Drikkevarer",
-      "name": "Faxe Kondi eller Pepsi Max sodavand",
-      "nameEn": "Faxe Kondi or Pepsi Max soda",
-      "unit": "2 l",
-      "qty": {
-        "size": 2,
-        "unit": "l",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-18T21:59:59+0000",
-      "price": 18.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-19.webp&w=600&x1r=0.021&x2r=0.582&y1r=0.388&y2r=0.672&s=212c33022f9f527afc758cadfd1336b5"
-    },
-    {
-      "id": 199,
-      "store": "netto",
       "category": "Kolonial",
       "name": "Zendium mundpleje",
       "nameEn": "Zendium mundpleje",
@@ -3397,6 +3380,23 @@
       "price": 29.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-21.webp&w=600&x1r=0.335&x2r=0.65&y1r=0.395&y2r=0.68&s=84e7dec8848305d095e1fb8f6c4113a6"
+    },
+    {
+      "id": 199,
+      "store": "netto",
+      "category": "Frugt & grønt",
+      "name": "Beauvais tomatketchup",
+      "nameEn": "Beauvais tomatketchup",
+      "unit": "1 kg",
+      "qty": {
+        "size": 1,
+        "unit": "kg",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-18T21:59:59+0000",
+      "price": 25.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FkiVYNtOW%2Fp-18.webp&w=600&x1r=0.36&x2r=0.63&y1r=0.67&y2r=0.96&s=beba610926b08d76f7eb24f98d4dd63a"
     },
     {
       "id": 200,
@@ -3504,23 +3504,6 @@
       "id": 206,
       "store": "rema",
       "category": "Kød & fisk",
-      "name": "REMA 1000 Burgerboller, pølse- eller hotdogbrød",
-      "nameEn": "REMA 1000 Burgerboller, pølse- or hotdogbrød",
-      "unit": "330 g",
-      "qty": {
-        "size": 330,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 12.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-14.webp&w=600&x1r=0.035&x2r=0.555&y1r=0.205&y2r=0.675&s=56c85f0e11ccd8377e6faa00ec16b770"
-    },
-    {
-      "id": 207,
-      "store": "rema",
-      "category": "Kød & fisk",
       "name": "REMA 1000 Danske kyllingelår",
       "nameEn": "REMA 1000 danish kyllingelår",
       "unit": "300 g",
@@ -3533,6 +3516,23 @@
       "price": 12.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-3.webp&w=600&x1r=0.031&x2r=0.498&y1r=0.47&y2r=0.735&s=fd30f0dfe2250678af3c96ed705d98de"
+    },
+    {
+      "id": 207,
+      "store": "rema",
+      "category": "Kød & fisk",
+      "name": "REMA 1000 Burgerboller, pølse- eller hotdogbrød",
+      "nameEn": "REMA 1000 Burgerboller, pølse- or hotdogbrød",
+      "unit": "330 g",
+      "qty": {
+        "size": 330,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 12.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-14.webp&w=600&x1r=0.035&x2r=0.555&y1r=0.205&y2r=0.675&s=56c85f0e11ccd8377e6faa00ec16b770"
     },
     {
       "id": 208,
@@ -3555,23 +3555,6 @@
       "id": 209,
       "store": "rema",
       "category": "Kød & fisk",
-      "name": "Friland Dansk kød",
-      "nameEn": "Friland danish kød",
-      "unit": "300 g",
-      "qty": {
-        "size": 300,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 49.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-13.webp&w=600&x1r=0.5&x2r=0.98&y1r=0.48&y2r=0.74&s=a42a9b8bf4cc93e1d2cfc992fd195df0"
-    },
-    {
-      "id": 210,
-      "store": "rema",
-      "category": "Kød & fisk",
       "name": "REMA 1000 Dansk kyllingebrystfilet eller -inderfilet",
       "nameEn": "REMA 1000 danish kyllingebrystfilet or -inderfilet",
       "unit": "600 g",
@@ -3584,6 +3567,23 @@
       "price": 49.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-3.webp&w=600&x1r=0.51&x2r=0.993&y1r=0.464&y2r=0.736&s=0d2e4aafa7c0107e8bee94d4a9d45e51"
+    },
+    {
+      "id": 210,
+      "store": "rema",
+      "category": "Kød & fisk",
+      "name": "Friland Dansk kød",
+      "nameEn": "Friland danish kød",
+      "unit": "300 g",
+      "qty": {
+        "size": 300,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 49.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-13.webp&w=600&x1r=0.5&x2r=0.98&y1r=0.48&y2r=0.74&s=a42a9b8bf4cc93e1d2cfc992fd195df0"
     },
     {
       "id": 211,
@@ -3639,6 +3639,23 @@
     {
       "id": 214,
       "store": "rema",
+      "category": "Drikkevarer",
+      "name": "Tuborg eller Carlsberg øl",
+      "nameEn": "Tuborg or Carlsberg beer",
+      "unit": "33 cl",
+      "qty": {
+        "size": 33,
+        "unit": "cl",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 4.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-24.webp&w=600&x1r=0.015&x2r=0.495&y1r=0.475&y2r=0.895&s=030b6c1f8a6d616d829460dd5af6b924"
+    },
+    {
+      "id": 215,
+      "store": "rema",
       "category": "Kød & fisk",
       "name": "Tulip Spareribs, pulled pork, pulled chicken taco eller 5-pak bacon i skiver",
       "nameEn": "Tulip Spareribs, pulled pork, pulled chicken taco or 5-pak bacon i skiver",
@@ -3654,7 +3671,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-24.webp&w=600&x1r=0.015&x2r=0.495&y1r=0.015&y2r=0.475&s=edefb6fbd91e8d4d01fd236933407624"
     },
     {
-      "id": 215,
+      "id": 216,
       "store": "rema",
       "category": "Mejeri",
       "name": "Rønbjerg flødeis",
@@ -3669,23 +3686,6 @@
       "price": 30.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-13.webp&w=600&x1r=0.03&x2r=0.98&y1r=0.02&y2r=0.47&s=d7376f3f1565240471615e8ffed79886"
-    },
-    {
-      "id": 216,
-      "store": "rema",
-      "category": "Drikkevarer",
-      "name": "Tuborg eller Carlsberg øl",
-      "nameEn": "Tuborg or Carlsberg beer",
-      "unit": "33 cl",
-      "qty": {
-        "size": 33,
-        "unit": "cl",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 4.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-24.webp&w=600&x1r=0.015&x2r=0.495&y1r=0.475&y2r=0.895&s=030b6c1f8a6d616d829460dd5af6b924"
     },
     {
       "id": 217,
@@ -3759,23 +3759,6 @@
       "id": 221,
       "store": "rema",
       "category": "Kolonial",
-      "name": "REMA 1000 Dansk T-bone steak eller ribeye steaks",
-      "nameEn": "REMA 1000 danish T-bone steak or ribeye steaks",
-      "unit": "350 g",
-      "qty": {
-        "size": 350,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 79.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-27.webp&w=600&x1r=0&x2r=1&y1r=0&y2r=0.522&s=097dad6780a533526f15726700f577fa"
-    },
-    {
-      "id": 222,
-      "store": "rema",
-      "category": "Kolonial",
       "name": "Farchioni Ekstra jomfruolivenolie",
       "nameEn": "Farchioni Ekstra jomfruolivenolie",
       "unit": "500 ml",
@@ -3788,6 +3771,23 @@
       "price": 35.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-16.webp&w=600&x1r=0&x2r=0.499&y1r=0&y2r=1&s=075049584aa3beab936f3b20a67d5524"
+    },
+    {
+      "id": 222,
+      "store": "rema",
+      "category": "Kolonial",
+      "name": "REMA 1000 Dansk T-bone steak eller ribeye steaks",
+      "nameEn": "REMA 1000 danish T-bone steak or ribeye steaks",
+      "unit": "350 g",
+      "qty": {
+        "size": 350,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 79.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-27.webp&w=600&x1r=0&x2r=1&y1r=0&y2r=0.522&s=097dad6780a533526f15726700f577fa"
     },
     {
       "id": 223,
@@ -3809,23 +3809,6 @@
     {
       "id": 224,
       "store": "rema",
-      "category": "Frugt & grønt",
-      "name": "REMA 1000 Svesker, rosiner, dadler, nøddemix, frugtstænger eller -snacks",
-      "nameEn": "REMA 1000 Svesker, rosiner, dadler, nøddemix, frugtstænger or -snacks",
-      "unit": "66 g",
-      "qty": {
-        "size": 66,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-16.webp&w=600&x1r=0.47&x2r=1&y1r=0&y2r=1&s=459acbb7f8f97280d0501313ccabecda"
-    },
-    {
-      "id": 225,
-      "store": "rema",
       "category": "Mejeri",
       "name": "Riberhus Skæreost",
       "nameEn": "Riberhus Skæreost",
@@ -3839,6 +3822,23 @@
       "price": 39.0,
       "was": 49.95,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-1.webp&w=600&x1r=0.02&x2r=0.98&y1r=0.14&y2r=0.44&s=123906f0e22509ecfaa901e4c6c93b8f"
+    },
+    {
+      "id": 225,
+      "store": "rema",
+      "category": "Frugt & grønt",
+      "name": "REMA 1000 Svesker, rosiner, dadler, nøddemix, frugtstænger eller -snacks",
+      "nameEn": "REMA 1000 Svesker, rosiner, dadler, nøddemix, frugtstænger or -snacks",
+      "unit": "66 g",
+      "qty": {
+        "size": 66,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 10.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-16.webp&w=600&x1r=0.47&x2r=1&y1r=0&y2r=1&s=459acbb7f8f97280d0501313ccabecda"
     },
     {
       "id": 226,
@@ -3877,23 +3877,6 @@
     {
       "id": 228,
       "store": "rema",
-      "category": "Kolonial",
-      "name": "EGO eller Tuborg Classic",
-      "nameEn": "EGO or Tuborg Classic",
-      "unit": "33 cl",
-      "qty": {
-        "size": 33,
-        "unit": "cl",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 5.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-13.webp&w=600&x1r=0.03&x2r=0.5&y1r=0.74&y2r=0.99&s=097dfd0f984c2e1c4f5d7b715b079439"
-    },
-    {
-      "id": 229,
-      "store": "rema",
       "category": "Kød & fisk",
       "name": "Humlum Tærtedej, pizzadej eller pølsehornsdej",
       "nameEn": "Humlum Tærtedej, pizzadej or pølsehornsdej",
@@ -3907,6 +3890,23 @@
       "price": 10.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-7.webp&w=600&x1r=0.03&x2r=0.98&y1r=0.02&y2r=0.48&s=4e9c38ce109ce4d5af2c6962bd1b4aab"
+    },
+    {
+      "id": 229,
+      "store": "rema",
+      "category": "Kolonial",
+      "name": "EGO eller Tuborg Classic",
+      "nameEn": "EGO or Tuborg Classic",
+      "unit": "33 cl",
+      "qty": {
+        "size": 33,
+        "unit": "cl",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 5.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-13.webp&w=600&x1r=0.03&x2r=0.5&y1r=0.74&y2r=0.99&s=097dfd0f984c2e1c4f5d7b715b079439"
     },
     {
       "id": 230,
@@ -3929,18 +3929,18 @@
       "id": 231,
       "store": "rema",
       "category": "Kolonial",
-      "name": "Anthon Berg Marcipanbrød",
-      "nameEn": "Anthon Berg Marcipanbrød",
-      "unit": "33 g",
+      "name": "REMA 1000 Frilandsgris",
+      "nameEn": "REMA 1000 Frilandsgris",
+      "unit": "250 g",
       "qty": {
-        "size": 33,
+        "size": 250,
         "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 5.0,
+      "price": 29.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-1.webp&w=600&x1r=0.5&x2r=0.98&y1r=0.42&y2r=0.75&s=a02c58a0c9dd7bc065672f6cb2bb7bb9"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-2.webp&w=600&x1r=0.035&x2r=0.505&y1r=0.057&y2r=0.344&s=4660ce3c44caf93a609e2b9fa69cc563"
     },
     {
       "id": 232,
@@ -3962,22 +3962,39 @@
     {
       "id": 233,
       "store": "rema",
-      "category": "Kolonial",
-      "name": "REMA 1000 Frilandsgris",
-      "nameEn": "REMA 1000 Frilandsgris",
-      "unit": "250 g",
+      "category": "Frugt & grønt",
+      "name": "Gram Slot Kartofler",
+      "nameEn": "Gram Slot potatoes",
+      "unit": "1 kg",
       "qty": {
-        "size": 250,
+        "size": 1,
+        "unit": "kg",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 8.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-1.webp&w=600&x1r=0.02&x2r=0.49&y1r=0.42&y2r=0.73&s=8f8070b60531b08f7a95c24006a516bf"
+    },
+    {
+      "id": 234,
+      "store": "rema",
+      "category": "Kolonial",
+      "name": "Anthon Berg Marcipanbrød",
+      "nameEn": "Anthon Berg Marcipanbrød",
+      "unit": "33 g",
+      "qty": {
+        "size": 33,
         "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 29.0,
+      "price": 5.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-2.webp&w=600&x1r=0.035&x2r=0.505&y1r=0.057&y2r=0.344&s=4660ce3c44caf93a609e2b9fa69cc563"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-1.webp&w=600&x1r=0.5&x2r=0.98&y1r=0.42&y2r=0.75&s=a02c58a0c9dd7bc065672f6cb2bb7bb9"
     },
     {
-      "id": 234,
+      "id": 235,
       "store": "rema",
       "category": "Kolonial",
       "name": "Blue Keld",
@@ -3992,23 +4009,6 @@
       "price": 5.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-25.webp&w=600&x1r=0&x2r=1&y1r=0.565&y2r=1&s=b0394b68a843aeb5c2e64d19b8665268"
-    },
-    {
-      "id": 235,
-      "store": "rema",
-      "category": "Frugt & grønt",
-      "name": "Gram Slot Kartofler",
-      "nameEn": "Gram Slot potatoes",
-      "unit": "1 kg",
-      "qty": {
-        "size": 1,
-        "unit": "kg",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 8.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FuZN19SCY%2Fp-1.webp&w=600&x1r=0.02&x2r=0.49&y1r=0.42&y2r=0.73&s=8f8070b60531b08f7a95c24006a516bf"
     },
     {
       "id": 236,
@@ -4098,19 +4098,19 @@
     {
       "id": 241,
       "store": "rema",
-      "category": "Kolonial",
-      "name": "REMA 1000 færdigret eller Steff Houlberg parisertoast 2-pak",
-      "nameEn": "REMA 1000 færdigret or Steff Houlberg parisertoast 2-pak",
-      "unit": "200 g",
+      "category": "Mejeri",
+      "name": "REMA 1000 Yoghurt",
+      "nameEn": "REMA 1000 yoghurt",
+      "unit": "1000 g",
       "qty": {
-        "size": 200,
+        "size": 1000,
         "unit": "g",
         "pieces": 1
       },
       "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 15.0,
+      "price": 10.0,
       "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-4.webp&w=600&x1r=0.49&x2r=0.98&y1r=0.47&y2r=0.74&s=8ebcd2ed5298a3b56c9cecbc07e33d40"
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-6.webp&w=600&x1r=0.021&x2r=0.55&y1r=0.045&y2r=0.7&s=5f51e653efdb9f0719b49f422ae36780"
     },
     {
       "id": 242,
@@ -4133,6 +4133,23 @@
       "id": 243,
       "store": "rema",
       "category": "Kolonial",
+      "name": "REMA 1000 færdigret eller Steff Houlberg parisertoast 2-pak",
+      "nameEn": "REMA 1000 færdigret or Steff Houlberg parisertoast 2-pak",
+      "unit": "200 g",
+      "qty": {
+        "size": 200,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 15.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-4.webp&w=600&x1r=0.49&x2r=0.98&y1r=0.47&y2r=0.74&s=8ebcd2ed5298a3b56c9cecbc07e33d40"
+    },
+    {
+      "id": 244,
+      "store": "rema",
+      "category": "Kolonial",
       "name": "REMA 1000 Pasta",
       "nameEn": "REMA 1000 pasta",
       "unit": "500 g",
@@ -4147,41 +4164,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-17.webp&w=600&x1r=0.01&x2r=0.49&y1r=0.01&y2r=0.99&s=ddd4c051f82621462673aa982fe773d6"
     },
     {
-      "id": 244,
-      "store": "rema",
-      "category": "Mejeri",
-      "name": "REMA 1000 Yoghurt",
-      "nameEn": "REMA 1000 yoghurt",
-      "unit": "1000 g",
-      "qty": {
-        "size": 1000,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 10.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-6.webp&w=600&x1r=0.021&x2r=0.55&y1r=0.045&y2r=0.7&s=5f51e653efdb9f0719b49f422ae36780"
-    },
-    {
       "id": 245,
-      "store": "rema",
-      "category": "Mejeri",
-      "name": "REMA 1000 Pålægschokolade",
-      "nameEn": "REMA 1000 Pålægschokolade",
-      "unit": "120 g",
-      "qty": {
-        "size": 120,
-        "unit": "g",
-        "pieces": 1
-      },
-      "validUntil": "2026-09-19T21:59:59+0000",
-      "price": 29.0,
-      "was": null,
-      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fg1WADR20%2Fp-12.webp&w=600&x1r=0&x2r=1&y1r=0.062&y2r=0.47&s=05ce0cd54ebaa044aee5d561d9498288"
-    },
-    {
-      "id": 246,
       "store": "rema",
       "category": "Kolonial",
       "name": "Free Bakery brød",
@@ -4198,7 +4181,7 @@
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-14.webp&w=600&x1r=0.575&x2r=0.965&y1r=0.685&y2r=0.995&s=e623e35a86986fc60f28a147f777f273"
     },
     {
-      "id": 247,
+      "id": 246,
       "store": "rema",
       "category": "Kød & fisk",
       "name": "REMA 1000 Frilandsgris Hotdog- eller wienerpølser",
@@ -4213,6 +4196,23 @@
       "price": 25.0,
       "was": null,
       "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrnfuOoGl%2Fp-2.webp&w=600&x1r=0.515&x2r=0.965&y1r=0.344&y2r=0.58&s=90420ff23cbe4c24edabee5da104d852"
+    },
+    {
+      "id": 247,
+      "store": "rema",
+      "category": "Mejeri",
+      "name": "REMA 1000 Pålægschokolade",
+      "nameEn": "REMA 1000 Pålægschokolade",
+      "unit": "120 g",
+      "qty": {
+        "size": 120,
+        "unit": "g",
+        "pieces": 1
+      },
+      "validUntil": "2026-09-19T21:59:59+0000",
+      "price": 29.0,
+      "was": null,
+      "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fg1WADR20%2Fp-12.webp&w=600&x1r=0&x2r=1&y1r=0.062&y2r=0.47&s=05ce0cd54ebaa044aee5d561d9498288"
     },
     {
       "id": 248,
