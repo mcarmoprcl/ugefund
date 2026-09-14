@@ -197,6 +197,7 @@ const MEALS = [
 
 let DEALS = [];
 let STORE_LOGOS = {};
+let STORE_LINKS = {};
 let view = "home";
 let activeCategory = null;
 let activeStores = new Set(STORES.map(s => s.id));
@@ -260,12 +261,17 @@ function basketIcon(filled) {
   return `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="${filled ? "var(--accent)" : "#9B9A90"}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" fill="${filled ? "var(--accent-soft)" : "none"}"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>`;
 }
 
+function linkIcon() {
+  return `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>`;
+}
+
 async function loadDeals() {
   try {
     const res = await fetch("./deals.json", { cache: "no-store" });
     const data = await res.json();
     DEALS = data.deals || [];
     STORE_LOGOS = data.storeLogos || {};
+    STORE_LINKS = data.storeLinks || {};
     document.getElementById("last-updated").textContent = data.lastUpdated ? "Updated " + data.lastUpdated : "";
   } catch (e) {
     document.getElementById("last-updated").textContent = "Couldn't load deals.json";
@@ -297,7 +303,9 @@ function dealTileHtml(d) {
       <div class="deal-tile-body">
         <div class="deal-tile-name">${d.nameEn || d.name}</div>
         <div class="deal-tile-da">${d.name}</div>
-        <div class="deal-tile-store">${storeMark(d.store, 12)}${s ? s.name : d.store} · ${d.unit || ""}</div>
+        <div class="deal-tile-store">${storeMark(d.store, 12)}${s ? s.name : d.store} · ${d.unit || ""}
+          ${STORE_LINKS[d.store] ? `<a href="${STORE_LINKS[d.store]}" target="_blank" rel="noopener" style="color:var(--accent); display:inline-flex;" title="Visit ${s ? s.name : d.store}'s website" onclick="event.stopPropagation()">${linkIcon()}</a>` : ""}
+        </div>
         <div class="deal-tile-prices">
           <div class="row" style="gap:6px;">
             ${d.was ? `<span class="deal-tile-was">${d.was.toFixed(2)} kr</span>` : ""}
