@@ -46,16 +46,24 @@ CATEGORY_KEYWORDS = {
     ],
     "Drikkevarer": [
         "sodavand", "øl", "juice", "saft", "vand", "cola", "most", "vin",
-        "cider", "energidrik", "kaffe", "te ", "drik",
+        "cider", "energidrik", "kaffe", "te ", "drik", "danskvand",
+        "kildevand", "mineralvand", "saftevand", "smoothie", "proteindrik",
+        "isvand", "tonic", "spiritus", "snaps", "akvavit", "whisky", "rom ",
+        "vodka", "gin ", "pilsner", "guldøl", "julebryg", "alkoholfri",
     ],
     "Slik & chokolade": [
         "slik", "chokolade", "bolsje", "tyggegummi", "lakrids", "vingummi",
-        "kiks", "småkage", "is ", "dessert",
+        "kiks", "småkage", "is ", "dessert", "flødebolle", "skumfidus",
+        "marshmallow", "påskeæg", "juleslik", "bland selv", "fudge",
+        "nougat", "praliner", "guf", "vaniljeis", "softice",
     ],
     "Rengøring & hygiejne": [
         "rengøring", "vaskemiddel", "opvask", "toiletpapir", "shampoo",
         "sæbe", "tandpasta", "hygiejne", "affaldspose", "køkkenrulle",
-        "ble", "servietter", "rens",
+        "ble", "servietter", "rens", "vasketabs", "skyllemiddel", "wc ",
+        "vinduespudser", "klud", "svamp", "håndsæbe", "deodorant",
+        "hårspray", "hårfarve", "solcreme", "plaster", "barberskum",
+        "hygiejnebind", "tamponer",
     ],
 }
 
@@ -140,9 +148,10 @@ def fetch_dealers() -> list[dict]:
     return dealers
 
 
-def match_dealer_ids(dealers: list[dict]) -> tuple[dict, dict]:
+def match_dealer_ids(dealers: list[dict]) -> tuple[dict, dict, dict]:
     matched = {}
     logos = {}
+    links = {}
     for dealer in dealers:
         name_low = (dealer.get("name") or "").lower()
         for our_id, needles in STORE_MATCHERS.items():
@@ -152,7 +161,9 @@ def match_dealer_ids(dealers: list[dict]) -> tuple[dict, dict]:
                 matched[our_id] = dealer["id"]
                 if dealer.get("logo"):
                     logos[our_id] = dealer["logo"]
-    return matched, logos
+                if dealer.get("website"):
+                    links[our_id] = dealer["website"]
+    return matched, logos, links
 
 
 def fetch_offers(dealer_id: str) -> list[dict]:
@@ -180,11 +191,11 @@ def unit_label(raw: dict) -> str:
     return ""
 
 
-def build_deals() -> tuple[list[dict], dict]:
+def build_deals() -> tuple[list[dict], dict, dict]:
     dealers = fetch_dealers()
     log(f"Dealers returned by API ({len(dealers)}): " + ", ".join(sorted(d.get("name", "?") for d in dealers)))
 
-    dealer_ids, store_logos = match_dealer_ids(dealers)
+    dealer_ids, store_logos, store_links = match_dealer_ids(dealers)
 
     missing = [s for s in STORE_MATCHERS if s not in dealer_ids]
     if missing:
@@ -237,12 +248,12 @@ def build_deals() -> tuple[list[dict], dict]:
             ]
             log(f"{our_store_id}: sample raw offer(s) for debugging: {json.dumps(sample, ensure_ascii=False)}")
 
-    return deals, store_logos
+    return deals, store_logos, store_links
 
 
 def main() -> int:
     try:
-        deals, store_logos = build_deals()
+        deals, store_logos, store_links = build_deals()
     except requests.RequestException as e:
         log(f"Scrape failed (network/API error), keeping existing deals.json: {e}")
         return 0
@@ -257,6 +268,7 @@ def main() -> int:
     payload = {
         "lastUpdated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "storeLogos": store_logos,
+        "storeLinks": store_links,
         "deals": deals,
     }
     DEALS_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
